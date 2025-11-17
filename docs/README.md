@@ -1,11 +1,11 @@
-# project-terraform-github
+# {{PROJECT_NAME}} (Örnek)
 
 <div align="center">
 
-[![GitHub](https://img.shields.io/badge/GitHub-Bilgisayar-Kavramlari-Toplulugu-181717?style=flat-square&logo=github)](https://github.com/Bilgisayar-Kavramlari-Toplulugu/github-infra)
+[![GitHub](https://img.shields.io/badge/GitHub-{{GITHUB_ORG}}-181717?style=flat-square&logo=github)](https://github.com/{{GITHUB_ORG}}/{{REPO_NAME}})
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](LICENSE)
 
-**Part of [GitHub Management via Terraform](docs/Project-Definition.md)**
+**Part of [{{PROJECT_NAME}}](docs/Project-Definition.md)**
 
 </div>
 
@@ -16,7 +16,7 @@
 
 <br>
 
-> **ÖNEMLİ:** Bu repository **GitHub Management via Terraform** projesinin bir parçasıdır. Proje hakkında detaylı bilgi için [`docs/Project-Definition.md`](docs/Project-Definition.md) dosyasına bakın.
+> **ÖNEMLİ:** Bu repository **{{PROJECT_NAME}}** projesinin bir parçasıdır. Proje hakkında detaylı bilgi için [`docs/Project-Definition.md`](docs/Project-Definition.md) dosyasına bakın.
 
 ## 📖 Hakkında
 
@@ -31,8 +31,8 @@
 ### Başlangıç
 
 ```bash
-git clone https://github.com/Bilgisayar-Kavramlari-Toplulugu/github-infra.git
-cd project-terraform-github
+git clone https://github.com/{{GITHUB_ORG}}/{{REPO_NAME}}.git
+cd {{REPO_NAME}}
 
 # Kurulum adımlarını buraya ekleyin
 ```
@@ -46,7 +46,7 @@ cd project-terraform-github
 ## 📁 Proje Yapısı
 
 ```
-project-terraform-github/
+{{REPO_NAME}}/
 ├── src/          # Kaynak kodlar
 ├── tests/        # Testler
 ├── docs/         # Dokümantasyon
@@ -61,7 +61,7 @@ project-terraform-github/
 
 ## 🤝 Katkıda Bulunma
 
-Katkıda bulunmak için lütfen [`CONTRIBUTING.md`](CONTRIBUTING.md) dosyasını inceleyin.
+Katkıda bulunmak için lütfen [`CONTRIBUTING.md`](.github/CONTRIBUTING.md) dosyasını inceleyin.
 
 ## 📚 Dokümantasyon
 
@@ -75,19 +75,19 @@ Bu proje MIT Lisansı ile lisanslanmıştır - detaylar için [LICENSE](LICENSE)
 
 ---
 
-**Proje Lideri:** [@flovearth](https://github.com/flovearth)
+**Proje Lideri:** [@{{PROJECT_LEAD}}](https://github.com/{{PROJECT_LEAD}})
 
 </details>
-  
+
 <details>
 <summary><strong>🇬🇧 English</strong></summary>
- 
+
 <br>
- 
-> **IMPORTANT:** This repository is part of **GitHub Mnagement via Terraform** project. See [`docs/Project-Definition.md`](docs/Project-Definition.md) for details.
+
+> **IMPORTANT:** This repository is part of **{{PROJECT_NAME}}** project. See [`docs/Project-Definition.md`](docs/Project-Definition.md) for details.
 
 ## 📖 About
-   
+
 <!-- Describe what this repository does -->
 
 ## 🚀 Installation
@@ -99,8 +99,8 @@ Bu proje MIT Lisansı ile lisanslanmıştır - detaylar için [LICENSE](LICENSE)
 ### Getting Started
 
 ```bash
-git clone https://github.com/Bilgisayar-Kavramlari-Toplulugu/github-infra.git
-cd project-terraform-github
+git clone https://github.com/{{GITHUB_ORG}}/{{REPO_NAME}}.git
+cd {{REPO_NAME}}
 
 # Add installation steps here
 ```
@@ -114,7 +114,7 @@ cd project-terraform-github
 ## 📁 Project Structure
 
 ```
-project-terraform-github/
+{{REPO_NAME}}/
 ├── src/          # Source code
 ├── tests/        # Tests
 ├── docs/         # Documentation
@@ -129,7 +129,7 @@ project-terraform-github/
 
 ## 🤝 Contributing
 
-Please see [`CONTRIBUTING.md`](CONTRIBUTING.md) for contribution guidelines.
+Please see [`CONTRIBUTING.md`](.github/CONTRIBUTING.md) for contribution guidelines.
 
 ## 📚 Documentation
 
@@ -143,6 +143,6 @@ This project is licensed under the MIT License - see [LICENSE](LICENSE) file for
 
 ---
 
-**Project Lead:** [@flovearth](https://github.com/flovearth)
+**Project Lead:** [@{{PROJECT_LEAD}}](https://github.com/{{PROJECT_LEAD}})
 
 </details>
