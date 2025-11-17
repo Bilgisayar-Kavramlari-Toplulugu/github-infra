@@ -14,6 +14,7 @@ Merhaba @{{PROJECT_LEAD}},
 
 - [ ] **README dosyasını detaylandır:** Projenin amacını, hedeflerini ve temel mimarisini anlatan şekilde `README.md` dosyasını güncelle.
 - [ ] **Geliştirme ortamını dökümante et:** Projeyi bir geliştiricinin kendi bilgisayarında nasıl ayağa kaldıracağını anlatan adımları `CONTRIBUTING.md` dosyasına ekle.
+- [ ] **Oluşturulan dosyaları projene göre düzenle:** Repo ile birlikte birçok dosya oluşturulmuştur, bu dosyaları kendi projenize uygun olarak düzenle.
 - [ ] **CI/CD pipeline'ını kur:** Proje için temel bir Sürekli Entegrasyon (CI) ve Sürekli Dağıtım (CD) pipeline'ı kur (Örn: GitHub Actions ile testlerin otomatik koşması).
 - [ ] **Issue şablonlarını oluştur:** Hata bildirimi (bug report) ve yeni özellik talebi (feature request) için `.github/ISSUE_TEMPLATE` klasörü altında standart şablonlar oluştur.
 - [ ] **İlk görevleri belirle:** Projenin ilk adımları için gerekli görevleri belirle, issue'ları oluştur ve proje panosuna (GitHub Projects) ekle.

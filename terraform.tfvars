@@ -1,39 +1,10 @@
 # GitHub Configuration
 github_organization = "Bilgisayar-Kavramlari-Toplulugu"
 
-#=============================================================================
-# PROJE YAPISININ AÇIKLAMASI
-#=============================================================================
-# Bu dosyada her proje şu yapıda tanımlanır:
-# 
-# "project-key" = {                # Proje benzersiz anahtarı (UNIQUE, değişmez)
-#   project_display_name = "..."   # Proje görünen adı (opsiyonel, insan okunabilir)
-#   team_name            = "..."   # GitHub'da oluşturulacak takım adı
-#   project_lead         = "..."   # Proje lideri GitHub kullanıcı adı
-#   team_permission      = "push"  # Takım izin seviyesi
-#   repositories         = [...]   # Proje altındaki repository'ler
-#   members              = [...]   # Takım üyeleri
-# }
-#
-# NOT: 
-#   - project-key: Terraform'un kullandığı teknik ID (unique olmalı)
-#   - project_display_name: GitHub dokümantasyonunda görünen isim (verilmezse key kullanılır)
-#
-# TEAM PERMISSION SEVİYELERİ:
-#   - "pull"     → Sadece okuma yetkisi
-#   - "triage"   → Issue/PR düzenleme, kod gönderemez
-#   - "push"     → Yazma yetkisi (kod gönderme) ⭐ Önerilen
-#   - "maintain" → Kod yönetimi + issue + PR kontrolü
-#
-# MEMBER ROLE'LERİ:
-#   - "member"     → Normal takım üyesi
-#   - "maintainer" → Takım yöneticisi (ekip yönetim yetkisi)
-#=============================================================================
-
 # Projects Configuration
 projects = {
   # ========================================
-  # PROJE: Infrastructure as Code Ornek
+  # ÖRNEK PROJE: Infrastructure as Code 
   # ========================================
   # "InfraCoders" = {
   #   project_display_name = "GitHub Management via Terraform"
@@ -134,3 +105,31 @@ projects = {
 }
 
 
+#=============================================================================
+# PROJE YAPISININ AÇIKLAMASI
+#=============================================================================
+# Bu dosyada her proje şu yapıda tanımlanır:
+# 
+# "project-key" = {                # Proje benzersiz anahtarı (UNIQUE, değişmez)
+#   project_display_name = "..."   # Proje görünen adı (opsiyonel, insan okunabilir)
+#   team_name            = "..."   # GitHub'da oluşturulacak takım adı
+#   project_lead         = "..."   # Proje lideri GitHub kullanıcı adı
+#   team_permission      = "push"  # Takım izin seviyesi
+#   repositories         = [...]   # Proje altındaki repository'ler
+#   members              = [...]   # Takım üyeleri
+# }
+#
+# NOT: 
+#   - project-key: Terraform'un kullandığı teknik ID (unique olmalı)
+#   - project_display_name: GitHub dokümantasyonunda görünen isim (verilmezse key kullanılır)
+#
+# TEAM PERMISSION SEVİYELERİ:
+#   - "pull"     → Sadece okuma yetkisi
+#   - "triage"   → Issue/PR düzenleme, kod gönderemez
+#   - "push"     → Yazma yetkisi (kod gönderme) ⭐ Önerilen
+#   - "maintain" → Kod yönetimi + issue + PR kontrolü
+#
+# MEMBER ROLE'LERİ:
+#   - "member"     → Normal takım üyesi
+#   - "maintainer" → Takım yöneticisi (ekip yönetim yetkisi)
+#=============================================================================
