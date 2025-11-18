@@ -21,7 +21,7 @@ resource "github_repository_file" "Project-Definition" {
 
   depends_on = [
     github_repository.repo,
-    github_repository_collaborator.project_lead  
+    github_repository_collaborator.project_lead
   ]
 
   # lifecycle {

@@ -17,11 +17,11 @@ variable "projects" {
     project_lead         = string           # Proje lideri kullanıcı adı
     team_permission      = string           # Takımın repolara erişim izni (pull, triage, push, maintain)
     repositories = list(object({
-      name        = string                  # Repository adı
-      description = string                  # Repository açıklaması
-      visibility  = string                  # Repository görünürlüğü (public, private)
-      license     = optional(string, "mit") # Default: "mit"
-      gitignore_template = optional(string) # GitHub .gitignore şablonu (boş bırakılırsa Dotnet kullanılır)
+      name               = string                  # Repository adı
+      description        = string                  # Repository açıklaması
+      visibility         = string                  # Repository görünürlüğü (public, private)
+      license            = optional(string, "mit") # Default: "mit"
+      gitignore_template = optional(string)        # GitHub .gitignore şablonu (boş bırakılırsa Dotnet kullanılır)
     }))
     members = list(object({
       username = string # GitHub kullanıcı adı
