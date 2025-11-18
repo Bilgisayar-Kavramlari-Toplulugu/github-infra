@@ -21,6 +21,7 @@ variable "projects" {
       description = string                  # Repository açıklaması
       visibility  = string                  # Repository görünürlüğü (public, private)
       license     = optional(string, "mit") # Default: "mit"
+      gitignore_template = optional(string) # GitHub .gitignore şablonu (boş bırakılırsa Dotnet kullanılır)
     }))
     members = list(object({
       username = string # GitHub kullanıcı adı

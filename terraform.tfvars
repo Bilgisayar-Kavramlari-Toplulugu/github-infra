@@ -17,6 +17,7 @@ projects = {
   #       description = "Terraform ile GitHub Repolarının Otomatik Yönetimi"
   #       visibility  = "public"
   #       license     = "mit"
+  #       gitignore_template = "Terraform"
   #     },
 
   #   ]
@@ -117,10 +118,11 @@ projects = {
 #   project_lead         = "..."                     # Proje lideri GitHub kullanıcı adı
 #   team_permission      = "push"                    # Takım izin seviyesi
 #   repositories         = [...]                     # Proje altındaki repository'ler
-#       name        = "project-loop-mobile-app"      # Repo adı
-#       description = "Mobile app for Project Loop"  # Repo açıklaması
-#       visibility  = "public"                       # Repo görünürlüğü "public" veya "private"
-#       license     = "apache-2.0"                   # Detaylar için License-Selection-Guide.md dosyasına bakınız. Default: "mit"
+#       name             = "project-loop-mobile-app"      # Repo adı
+#       description      = "Mobile app for Project Loop"  # Repo açıklaması
+#       visibility       = "public"                       # Repo görünürlüğü "public" veya "private"
+#       license          = "apache-2.0"                   # Detaylar için License-Selection-Guide.md dosyasına bakınız. Default: "mit"
+#       gitignore_template = "Node"                  # GitHub'ın sunduğu .gitignore şablonlarından biri. Default: "Dotnet"
 #   members              = [...]                     # Takım üyeleri
 #       username = "karalarmehmet"                   # github username
 #       role     = "member"                          # member veya maintainer

@@ -21,12 +21,14 @@ resource "github_repository_file" "Project-Definition" {
 
   depends_on = [
     github_repository.repo,
-    github_team_repository.access,
-    github_repository_collaborator.project_lead
+    github_repository_collaborator.project_lead  
   ]
 
   # lifecycle {
-  #   ignore_changes = [content]
+  #   ignore_changes = [
+  #     content,
+  #     commit_message
+  #   ]
   # }
 }
 
@@ -44,12 +46,14 @@ resource "github_repository_file" "Architecture-Overview" {
   overwrite_on_create = true
 
   depends_on = [
-    github_repository.repo,
-    github_team_repository.access,
-    github_repository_collaborator.project_lead
+    github_repository.repo
+
   ]
   # lifecycle {
-  #   ignore_changes = [content]
+  #   ignore_changes = [
+  #     content,
+  #     commit_message
+  #   ]
   # }
 }
 
@@ -67,10 +71,15 @@ resource "github_repository_file" "Development-Workflow" {
 
   overwrite_on_create = true
   depends_on = [
-    github_repository.repo,
-    github_team_repository.access,
-    github_repository_collaborator.project_lead
+    github_repository.repo
   ]
+
+  # lifecycle {
+  #   ignore_changes = [
+  #     content,
+  #     commit_message
+  #   ]
+  # }
 }
 
 # Verified Commits Guide document
@@ -86,13 +95,14 @@ resource "github_repository_file" "Verified-Commits-Guide" {
   overwrite_on_create = true
 
   depends_on = [
-    github_repository.repo,
-    github_team_repository.access,
-    github_repository_collaborator.project_lead
+    github_repository.repo
   ]
 
   # lifecycle {
-  #   ignore_changes = [content]
+  #   ignore_changes = [
+  #     content,
+  #     commit_message
+  #   ]
   # }
 }
 
@@ -136,12 +146,15 @@ resource "github_repository_file" "team" {
 
   depends_on = [
     github_repository.repo,
-    github_team_repository.access,
-    github_repository_collaborator.project_lead
+    github_repository_collaborator.project_lead,
+    github_team.project
   ]
 
   # lifecycle {
-  #   ignore_changes = [content]
+  #   ignore_changes = [
+  #     content,
+  #     commit_message
+  #   ]
   # }
 }
 
@@ -168,14 +181,16 @@ resource "github_repository_file" "readme" {
 
   depends_on = [
     github_repository.repo,
-    github_team_repository.access,
     github_repository_collaborator.project_lead
   ]
 
   overwrite_on_create = true # This will overwrite the auto-generated README
 
   # lifecycle {
-  #   ignore_changes = [content]
+  #   ignore_changes = [
+  #     content,
+  #     commit_message
+  #   ]
   # }
 }
 
@@ -189,15 +204,16 @@ resource "github_repository_file" "contributing" {
   commit_message = "Managed by Terraform"
 
   depends_on = [
-    github_repository.repo,
-    github_team_repository.access,
-    github_repository_collaborator.project_lead
+    github_repository.repo
   ]
 
   overwrite_on_create = true # This will overwrite the auto-generated README
 
   # lifecycle {
-  #   ignore_changes = [content]
+  #   ignore_changes = [
+  #     content,
+  #     commit_message
+  #   ]
   # }
 }
 
@@ -213,10 +229,15 @@ resource "github_repository_file" "code_of_conduct" {
 
   overwrite_on_create = true
 
-  depends_on = [github_repository.repo]
+  depends_on = [
+    github_repository.repo
+  ]
 
   # lifecycle {
-  #   ignore_changes = [content]
+  #   ignore_changes = [
+  #     content,
+  #     commit_message
+  #   ]
   # }
 }
 
@@ -245,8 +266,17 @@ resource "github_repository_file" "wiki_home" {
   commit_message      = "Managed by Terraform"
   overwrite_on_create = true
 
+  depends_on = [
+    github_repository.repo,
+    github_repository_collaborator.project_lead,
+    github_team.project
+  ]
+
   # lifecycle {
-  #   ignore_changes = [content]
+  #   ignore_changes = [
+  #     content,
+  #     commit_message
+  #   ]
   # }
 }
 
@@ -270,7 +300,10 @@ resource "github_repository_file" "gitignore" {
   ]
 
   # lifecycle {
-  #   ignore_changes = [content]
+  #   ignore_changes = [
+  #     content,
+  #     commit_message
+  #   ]
   # }
 }
 
@@ -291,9 +324,7 @@ resource "github_repository_file" "codeowners" {
   overwrite_on_create = true
 
   depends_on = [
-    github_repository.repo,
-    github_team_repository.access,
-    github_repository_collaborator.project_lead
+    github_repository.repo
   ]
 
   # lifecycle {
@@ -320,7 +351,10 @@ resource "github_repository_file" "pr_template" {
   ]
 
   # lifecycle {
-  #   ignore_changes = [content]
+  #   ignore_changes = [
+  #     content,
+  #     commit_message
+  #   ]
   # }
 }
 
@@ -340,13 +374,18 @@ resource "github_repository_file" "issue_template_config" {
     ),
     "{{REPO_NAME}}", each.key
   )
-  commit_message      = "Configure issue templates"
+  commit_message      = "Managed by Terraform"
   overwrite_on_create = true
 
-  depends_on = [github_repository.repo]
+  depends_on = [
+    github_repository.repo
+  ]
 
   # lifecycle {
-  #   ignore_changes = [content]
+  #   ignore_changes = [
+  #     content,
+  #     commit_message
+  #   ]
   # }
 
 }
@@ -368,13 +407,19 @@ resource "github_repository_file" "report_abuse_template" {
     ),
     "{{REPO_NAME}}", each.key
   )
-  commit_message      = "Add abuse report template"
+  commit_message      = "Managed by Terraform"
   overwrite_on_create = true
 
-  depends_on = [github_repository.repo]
+  depends_on = [
+    github_repository.repo,
+    github_repository_collaborator.project_lead
+  ]
 
   # lifecycle {
-  #   ignore_changes = [content]
+  #   ignore_changes = [
+  #     content,
+  #     commit_message
+  #   ]
   # }
 }
 
@@ -386,13 +431,18 @@ resource "github_repository_file" "task_template" {
   branch              = "main"
   file                = ".github/ISSUE_TEMPLATE/task.yml"
   content             = file("${path.module}/docs/ISSUE_TEMPLATE/task.yml")
-  commit_message      = "Add task template"
+  commit_message      = "Managed by Terraform"
   overwrite_on_create = true
 
-  depends_on = [github_repository.repo]
+  depends_on = [
+    github_repository.repo
+  ]
 
   # lifecycle {
-  #   ignore_changes = [content]
+  #   ignore_changes = [
+  #     content,
+  #     commit_message
+  #   ]
   # }
 }
 
@@ -404,13 +454,18 @@ resource "github_repository_file" "bug_report_template" {
   branch              = "main"
   file                = ".github/ISSUE_TEMPLATE/bug-report.yml"
   content             = file("${path.module}/docs/ISSUE_TEMPLATE/bug-report.yml")
-  commit_message      = "Add bug report template"
+  commit_message      = "Managed by Terraform"
   overwrite_on_create = true
 
-  depends_on = [github_repository.repo]
+  depends_on = [
+    github_repository.repo
+  ]
 
   # lifecycle {
-  #   ignore_changes = [content]
+  #   ignore_changes = [
+  #     content,
+  #     commit_message
+  #   ]
   # }
 }
 
@@ -422,12 +477,17 @@ resource "github_repository_file" "feature_request_template" {
   branch              = "main"
   file                = ".github/ISSUE_TEMPLATE/feature-request.yml"
   content             = file("${path.module}/docs/ISSUE_TEMPLATE/feature-request.yml")
-  commit_message      = "Add feature request template"
+  commit_message      = "Managed by Terraform"
   overwrite_on_create = true
 
-  depends_on = [github_repository.repo]
+  depends_on = [
+    github_repository.repo
+  ]
 
   # lifecycle {
-  #   ignore_changes = [content]
+  #   ignore_changes = [
+  #     content,
+  #     commit_message
+  #   ]
   # }
 }

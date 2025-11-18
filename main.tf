@@ -22,7 +22,10 @@ locals {
         project_lead         = project.project_lead
         team_permission      = project.team_permission
         license              = try(repo.license, "mit")
-        gitignore_template   = try(repo.gitignore_template, "")
+        gitignore_template   = try(
+          trimspace(repo.gitignore_template),
+          "Dotnet"
+        )
       }
     ]
   ])
