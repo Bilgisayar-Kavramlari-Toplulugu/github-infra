@@ -20,7 +20,6 @@
 
 ## 📖 Hakkında
 
-
 Bu proje, GitHub organizasyonlarında yeni repoların standartlara uygun ve kolay bir şekilde oluşturulmasını sağlamak amacıyla geliştirilmiştir.
 
 Organizasyonda belirlenen kurallara göre repo açma, yönetme ve kullanıcı işlemlerini otomatikleştirerek büyük kolaylık sunar. Oluşturulan repolara rehber niteliğinde dokümanlar otomatik olarak eklenir.
