@@ -1,6 +1,6 @@
 terraform {
   backend "s3" {
-    bucket  = "BKT-github-infra"
+    bucket  = "Bilgisayar-Kavramlari-Toplulugu"
     key     = "terraform.tfstate"
     region  = "eu-west-2"
     encrypt = true
