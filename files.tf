@@ -332,10 +332,10 @@ resource "github_repository_file" "issue_template_config" {
 
   repository = github_repository.repo[each.key].name
   branch     = "main"
-  file       = ".github/ISSUE_TEMPLATE/config.yml"
+  file       = ".github/ISSUE_TEMPLATE/config.yml.tpl"
   content = replace(
     replace(
-      file("${path.module}/docs/ISSUE_TEMPLATE/config.yml"),
+      file("${path.module}/docs/ISSUE_TEMPLATE/config.yml.tpl"),
       "{{GITHUB_ORG}}", var.github_organization
     ),
     "{{REPO_NAME}}", each.key
@@ -344,6 +344,11 @@ resource "github_repository_file" "issue_template_config" {
   overwrite_on_create = true
 
   depends_on = [github_repository.repo]
+
+  # lifecycle {
+  #   ignore_changes = [content]
+  # }
+
 }
 
 # Abuse report template
