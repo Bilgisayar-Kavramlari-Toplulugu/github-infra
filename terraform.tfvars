@@ -16,6 +16,7 @@ projects = {
   #       name        = "project-terraform-github"
   #       description = "Terraform ile GitHub Repolarının Otomatik Yönetimi"
   #       visibility  = "public"
+  #       license     = "mit"
   #     },
 
   #   ]
@@ -110,13 +111,19 @@ projects = {
 #=============================================================================
 # Bu dosyada her proje şu yapıda tanımlanır:
 # 
-# "project-key" = {                # Proje benzersiz anahtarı (UNIQUE, değişmez)
-#   project_display_name = "..."   # Proje görünen adı (opsiyonel, insan okunabilir)
-#   team_name            = "..."   # GitHub'da oluşturulacak takım adı
-#   project_lead         = "..."   # Proje lideri GitHub kullanıcı adı
-#   team_permission      = "push"  # Takım izin seviyesi
-#   repositories         = [...]   # Proje altındaki repository'ler
-#   members              = [...]   # Takım üyeleri
+# "project-key" = {                                  # Proje benzersiz anahtarı (UNIQUE, değişmez)
+#   project_display_name = "..."                     # Proje görünen adı (opsiyonel, insan okunabilir)
+#   team_name            = "..."                     # GitHub'da oluşturulacak takım adı
+#   project_lead         = "..."                     # Proje lideri GitHub kullanıcı adı
+#   team_permission      = "push"                    # Takım izin seviyesi
+#   repositories         = [...]                     # Proje altındaki repository'ler
+#       name        = "project-loop-mobile-app"      # Repo adı
+#       description = "Mobile app for Project Loop"  # Repo açıklaması
+#       visibility  = "public"                       # Repo görünürlüğü "public" veya "private"
+#       license     = "apache-2.0"                   # Detaylar için License-Selection-Guide.md dosyasına bakınız. Default: "mit"
+#   members              = [...]                     # Takım üyeleri
+#       username = "karalarmehmet"                   # github username
+#       role     = "member"                          # member veya maintainer
 # }
 #
 # NOT: 
