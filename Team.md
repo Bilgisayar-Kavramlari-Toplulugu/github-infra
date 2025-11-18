@@ -1,8 +1,8 @@
-# GitHub Management via Terraform Takımı ve Rolleri
+# InfraCoders Takımı ve Rolleri
 <details open>
 <summary><strong>🇹🇷 Türkçe</strong></summary>
 <br>
-Bu projedeki güncel ekip üyelerini ve rollerini görmek için lütfen GitHub'ın kendi takım sayfasını ziyaret edin. Oradaki liste **her zaman günceldir**.
+  
 ### ➡️ [Güncel Takım Listesi İçin Tıkla](https://github.com/orgs/Bilgisayar-Kavramlari-Toplulugu/teams/InfraCoders)
 ---
 ## 📊 Takım İstatistikleri
@@ -10,9 +10,9 @@ Bu projedeki güncel ekip üyelerini ve rollerini görmek için lütfen GitHub'�
 - **Proje Adı:** GitHub Management via Terraform
 - **Takım Adı:** InfraCoders
 - **Proje Lideri:** @flovearth
-- **Toplam Üye Sayısı:** 11
-- **Maintainer Sayısı:** 0
-- **Member Sayısı:** 11
+- **Toplam Üye Sayısı:** 7
+- **Maintainer Sayısı:** 1
+- **Member Sayısı:** 8
 
 ---
 
@@ -42,8 +42,6 @@ Bu dokümanın amacı ise projedeki rolleri ve sorumlulukları tanımlamaktır.
 
 <br>
 
-To see the current members and roles of this project, please visit the official GitHub Team page. The list there is **always up-to-date**.
-
 ### ➡️ [Click Here for the Current Team List](https://github.com/orgs/Bilgisayar-Kavramlari-Toplulugu/teams/InfraCoders)
 
 ---
@@ -53,9 +51,9 @@ To see the current members and roles of this project, please visit the official 
 - **Project Name:** GitHub Management via Terraform
 - **Team Name:** InfraCoders
 - **Project Lead:** @flovearth
-- **Total Members:** 11
-- **Maintainers:** 0
-- **Members:** 11
+- **Total Members:** 7
+- **Maintainers:** 1
+- **Members:** 8
 
 ---
 
