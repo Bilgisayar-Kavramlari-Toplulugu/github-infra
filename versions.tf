@@ -1,9 +1,9 @@
 terraform {
   backend "s3" {
-    bucket  = "bilgisayar-kavramlari-toplulugu"
-    key     = "terraform.tfstate"
-    region  = "eu-west-2"
-    encrypt = true
+    bucket       = "bilgisayar-kavramlari-toplulugu"
+    key          = "terraform.tfstate"
+    region       = "eu-west-2"
+    encrypt      = true
     use_lockfile = true
   }
 
