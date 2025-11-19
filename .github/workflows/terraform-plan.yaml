@@ -55,7 +55,20 @@ jobs:
       - name: Run TFLint
         id: tflint
         run: tflint -f compact
-    
+      
+      - name: Terraform Format
+        id: fmt
+        run: |
+            terraform fmt -recursive
+            # Check if there are any changes after formatting
+            if git diff --exit-code --quiet; then
+            echo "No formatting changes needed"
+            echo "has_changes=false" >> $GITHUB_OUTPUT
+            else
+            echo "Formatting changes detected"
+            echo "has_changes=true" >> $GITHUB_OUTPUT
+            fi  
+
       - name: Terraform Init
         id: init
         run: terraform init
@@ -67,19 +80,6 @@ jobs:
       - name: Terraform Plan
         id: plan
         run: terraform plan -no-color -out=tfplan
-
-      - name: Terraform Format
-        id: fmt
-        run: |
-          terraform fmt -recursive
-          # Check if there are any changes after formatting
-          if git diff --exit-code --quiet; then
-            echo "No formatting changes needed"
-            echo "has_changes=false" >> $GITHUB_OUTPUT
-          else
-            echo "Formatting changes detected"
-            echo "has_changes=true" >> $GITHUB_OUTPUT
-          fi
 
       - name: Commit formatted files
         if: steps.fmt.outputs.has_changes == 'true'
