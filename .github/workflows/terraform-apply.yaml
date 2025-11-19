@@ -12,7 +12,7 @@
 #   id-token: write
 
 # env:
-#   AWS_TF_ROLE_ARN: ${{ vars.AWS_TF_ROLE_ARN }}
+#   AWS_TF_ROLE_ARN: ${{ secrets.AWS_TF_ROLE_ARN }}
 #   TF_VAR_github_organization: "Bilgisayar-Kavramlari-Toplulugu"
 #   TF_VAR_github_token: ${{ secrets.ORG_PAT }}
 #   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -29,7 +29,7 @@
 #       - name: Setup Terraform
 #         uses: hashicorp/setup-terraform@b9cd54a3c349d3f38e8881555d616ced269862dd # v3.1.2
 #         with:
-#           terraform_version: "1.9.7"
+#           terraform_version: "1.13.5"
 
 #       - name: Configure AWS credentials
 #         uses: aws-actions/configure-aws-credentials@v5
