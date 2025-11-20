@@ -13,10 +13,10 @@ projects = {
   #   team_permission      = "push"
   #   repositories = [
   #     {
-  #       name        = "project-terraform-github"
-  #       description = "Terraform ile GitHub Repolarının Otomatik Yönetimi"
-  #       visibility  = "public"
-  #       license     = "mit"
+  #       name               = "project-terraform-github"
+  #       description        = "Terraform ile GitHub Repolarının Otomatik Yönetimi"
+  #       visibility         = "public"
+  #       license            = "mit"
   #       gitignore_template = "Terraform"
   #     },
 
@@ -70,26 +70,23 @@ projects = {
   # }
 
   "Loop" = {
-    project_display_name = "Loop Projesi"
+    project_display_name = "Geliştirici Odaklı İşbirliği Platformu Projesi"
     project_lead         = "hakanceran64"
-    team_name            = "Loop-Team"
+    team_name            = "Loop"
     team_permission      = "push"
     repositories = [
       {
-        name        = "project-loop-web-app"
-        description = "Web app for Project Loop"
-        visibility  = "public"
-      },
-      {
-        name        = "project-loop-mobile-app"
-        description = "Mobile app for Project Loop"
-        visibility  = "public"
-      },
+        name               = "project-loop"
+        description        = "Loop Projesi Reposu"
+        visibility         = "public"
+        license            = "mit"
+        gitignore_template = "C++"
+      }
     ]
     members = [
       {
         username = "flovearth"
-        role     = "maintainer"
+        role     = "member"
       },
       {
         username = "karalarmehmet"
@@ -118,7 +115,7 @@ projects = {
 #       description      = "Mobile app for Project Loop"  # Repo açıklaması
 #       visibility       = "public"                       # Repo görünürlüğü "public" veya "private"
 #       license          = "apache-2.0"                   # Detaylar için License-Selection-Guide.md dosyasına bakınız. Default: "mit"
-#       gitignore_template = "Node"                  # GitHub'ın sunduğu .gitignore şablonlarından biri. Default: "Dotnet"
+#       gitignore_template = "Node"                  # GitHub'ın sunduğu .gitignore şablonlarından biri. Default: "Dotnet" Örnek: Android, Angular, C++, Dart, Dotniet, Flutter, Go, Java, Kotlin, Lua, MAven, Nextjs, Objective-C, Perl, PHP, Python, Ruby, Rust, Swift, Terraform, Unity gibi.
 #   members              = [...]                     # Takım üyeleri
 #       username = "karalarmehmet"                   # github username
 #       role     = "member"                          # member veya maintainer
