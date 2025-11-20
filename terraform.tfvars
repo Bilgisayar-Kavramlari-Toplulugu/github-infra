@@ -92,8 +92,12 @@ projects = {
         username = "karalarmehmet"
         role     = "member"
       },
+      # {
+      #   username = "hulyaoner"
+      #   role     = "member"
+      # },
       {
-        username = "hulyaoner"
+        username = "slymanmrcan"
         role     = "member"
       },
     ]
