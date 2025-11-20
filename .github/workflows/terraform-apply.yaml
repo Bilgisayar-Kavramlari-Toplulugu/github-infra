@@ -1,54 +1,54 @@
-# # refer official document:https://docs.github.com/en/actions/reference/workflows-and-actions/workflow-syntax
+# refer official document:https://docs.github.com/en/actions/reference/workflows-and-actions/workflow-syntax
 
-# name: Terraform Apply
+name: Terraform Apply
 
-# on:
-#   push:
-#     branches:
-#       - main
+on:
+  push:
+    branches:
+      - main
 
-# permissions:
-#   contents: read
-#   id-token: write
+permissions:
+  contents: read
+  id-token: write
 
-# env:
-#   AWS_TF_ROLE_ARN: ${{ secrets.AWS_TF_ROLE_ARN }}
-#   TF_VAR_github_organization: "Bilgisayar-Kavramlari-Toplulugu"
-#   TF_VAR_github_token: ${{ secrets.ORG_PAT }}
-#   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+env:
+  AWS_TF_ROLE_ARN: ${{ secrets.AWS_TF_ROLE_ARN }}
+  TF_VAR_github_organization: "Bilgisayar-Kavramlari-Toplulugu"
+  TF_VAR_github_token: ${{ secrets.ORG_PAT }}
+  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-# jobs:
-#   terraform-apply:
-#     name: Terraform Apply
-#     runs-on: ubuntu-latest
+jobs:
+  terraform-apply:
+    name: Terraform Apply
+    runs-on: ubuntu-latest
     
-#     steps:
-#       - name: Checkout code
-#         uses: actions/checkout@v5
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v5
 
-#       - name: Setup Terraform
-#         uses: hashicorp/setup-terraform@b9cd54a3c349d3f38e8881555d616ced269862dd # v3.1.2
-#         with:
-#           terraform_version: "1.13.5"
+      - name: Setup Terraform
+        uses: hashicorp/setup-terraform@b9cd54a3c349d3f38e8881555d616ced269862dd # v3.1.2
+        with:
+          terraform_version: "1.13.5"
 
-#       - name: Configure AWS credentials
-#         uses: aws-actions/configure-aws-credentials@v5
-#         with:
-#           role-to-assume: ${{ env.AWS_TF_ROLE_ARN }}
-#           aws-region: eu-west-2
+      - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@v5
+        with:
+          role-to-assume: ${{ env.AWS_TF_ROLE_ARN }}
+          aws-region: eu-west-2
 
-#       - name: Terraform Init
-#         id: init
-#         run: terraform init
+      - name: Terraform Init
+        id: init
+        run: terraform init
 
-#       - name: Terraform Validate
-#         id: validate
-#         run: terraform validate
+      - name: Terraform Validate
+        id: validate
+        run: terraform validate
 
-#       - name: Terraform Plan
-#         id: plan
-#         run: terraform plan -no-color
+      - name: Terraform Plan
+        id: plan
+        run: terraform plan -no-color
 
-#       - name: Terraform Apply
-#         id: apply
-#         run: terraform apply -auto-approve
+      - name: Terraform Apply
+        id: apply
+        run: terraform apply -auto-approve
