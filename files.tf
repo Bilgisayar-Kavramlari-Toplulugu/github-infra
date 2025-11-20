@@ -16,7 +16,7 @@ resource "github_repository_file" "Project-Definition" {
     ),
     "{{PROJECT_LEAD}}", each.value.project_lead
   )
-  commit_message      = "Managed by Terraform"
+  commit_message      = "initial commit"
   overwrite_on_create = true
 
   depends_on = [
@@ -42,7 +42,7 @@ resource "github_repository_file" "Architecture-Overview" {
     file("${path.module}/docs/Architecture-Overview.md"),
     "{{PROJECT_NAME}}", each.value.project_display_name
   )
-  commit_message      = "Managed by Terraform"
+  commit_message      = "initial commit"
   overwrite_on_create = true
 
   depends_on = [
@@ -67,7 +67,7 @@ resource "github_repository_file" "Development-Workflow" {
     file("${path.module}/docs/Development-Workflow.md"),
     "{{PROJECT_NAME}}", each.value.project_display_name
   )
-  commit_message = "Managed by Terraform"
+  commit_message = "initial commit"
 
   overwrite_on_create = true
   depends_on = [
@@ -91,7 +91,7 @@ resource "github_repository_file" "Verified-Commits-Guide" {
     file("${path.module}/docs/Verified-Commits-Guide.md"),
     "{{PROJECT_NAME}}", each.value.project_display_name
   )
-  commit_message      = "Managed by Terraform"
+  commit_message      = "initial commit"
   overwrite_on_create = true
 
   depends_on = [
@@ -141,7 +141,7 @@ resource "github_repository_file" "team" {
     )
   )
 
-  commit_message      = "Managed by Terraform"
+  commit_message      = "initial commit"
   overwrite_on_create = true
 
   depends_on = [
@@ -177,7 +177,7 @@ resource "github_repository_file" "readme" {
     ),
     "{{REPO_NAME}}", each.key
   )
-  commit_message = "Managed by Terraform"
+  commit_message = "initial commit"
 
   depends_on = [
     github_repository.repo,
@@ -201,7 +201,7 @@ resource "github_repository_file" "contributing" {
   repository     = github_repository.repo[each.key].name
   file           = ".github/CONTRIBUTING.md"
   content        = file("${path.module}/docs/CONTRIBUTING.md")
-  commit_message = "Managed by Terraform"
+  commit_message = "initial commit"
 
   depends_on = [
     github_repository.repo
@@ -225,7 +225,7 @@ resource "github_repository_file" "code_of_conduct" {
   branch         = "main"
   file           = "CODE_OF_CONDUCT.md"
   content        = file("${path.module}/docs/CODE_OF_CONDUCT.md")
-  commit_message = "Managed by Terraform"
+  commit_message = "initial commit"
 
   overwrite_on_create = true
 
@@ -263,7 +263,7 @@ resource "github_repository_file" "wiki_home" {
     ),
     "{{REPO_NAME}}", each.key
   )
-  commit_message      = "Managed by Terraform"
+  commit_message      = "initial commit"
   overwrite_on_create = true
 
   depends_on = [
@@ -291,7 +291,7 @@ resource "github_repository_file" "gitignore" {
   branch         = "main"
   file           = ".gitignore"
   content        = file("${path.module}/.gitignore")
-  commit_message = "Managed by Terraform"
+  commit_message = "initial commit"
 
   overwrite_on_create = true
 
@@ -319,7 +319,7 @@ resource "github_repository_file" "codeowners" {
   branch         = "main"
   file           = ".github/CODEOWNERS"
   content        = "* @${each.value.project_lead}\n"
-  commit_message = "Managed by Terraform"
+  commit_message = "initial commit"
 
   overwrite_on_create = true
 
@@ -342,7 +342,7 @@ resource "github_repository_file" "pr_template" {
   repository     = github_repository.repo[each.key].name
   file           = ".github/PULL_REQUEST_TEMPLATE.md"
   content        = file("${path.module}/docs/PULL_REQUEST_TEMPLATE.md")
-  commit_message = "Managed by Terraform"
+  commit_message = "initial commit"
 
   overwrite_on_create = true
 
@@ -374,7 +374,7 @@ resource "github_repository_file" "issue_template_config" {
     ),
     "{{REPO_NAME}}", each.key
   )
-  commit_message      = "Managed by Terraform"
+  commit_message      = "initial commit"
   overwrite_on_create = true
 
   depends_on = [
@@ -407,7 +407,7 @@ resource "github_repository_file" "report_abuse_template" {
     ),
     "{{REPO_NAME}}", each.key
   )
-  commit_message      = "Managed by Terraform"
+  commit_message      = "initial commit"
   overwrite_on_create = true
 
   depends_on = [
@@ -431,7 +431,7 @@ resource "github_repository_file" "task_template" {
   branch              = "main"
   file                = ".github/ISSUE_TEMPLATE/task.yml"
   content             = file("${path.module}/docs/ISSUE_TEMPLATE/task.yml")
-  commit_message      = "Managed by Terraform"
+  commit_message      = "initial commit"
   overwrite_on_create = true
 
   depends_on = [
@@ -454,7 +454,7 @@ resource "github_repository_file" "bug_report_template" {
   branch              = "main"
   file                = ".github/ISSUE_TEMPLATE/bug-report.yml"
   content             = file("${path.module}/docs/ISSUE_TEMPLATE/bug-report.yml")
-  commit_message      = "Managed by Terraform"
+  commit_message      = "initial commit"
   overwrite_on_create = true
 
   depends_on = [
@@ -477,7 +477,7 @@ resource "github_repository_file" "feature_request_template" {
   branch              = "main"
   file                = ".github/ISSUE_TEMPLATE/feature-request.yml"
   content             = file("${path.module}/docs/ISSUE_TEMPLATE/feature-request.yml")
-  commit_message      = "Managed by Terraform"
+  commit_message      = "initial commit"
   overwrite_on_create = true
 
   depends_on = [
