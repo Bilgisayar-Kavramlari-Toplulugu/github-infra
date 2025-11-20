@@ -76,25 +76,12 @@ projects = {
     team_permission      = "push"
     repositories = [
       {
-        name               = "project-loop-mobile-app"
-        description        = "Project Loop için Mobil Uygulama"
+        name               = "project-loop"
+        description        = "Loop Projesi Reposu"
         visibility         = "public"
         license            = "mit"
-        gitignore_template = "Flutter"
+        gitignore_template = "C++"
       },
-      {
-        name               = "project-loop-backend"
-        description        = "Project Loop için Backend Servisleri"
-        visibility         = "public"
-        gitignore_template = "Node"
-      }
-      # {
-      #   name               = "project-loop"
-      #   description        = "Loop Projesi Reposu"
-      #   visibility         = "public"
-      #   license            = "mit"
-      #   gitignore_template = "C++"
-      # },
     ]
     members = [
       {
@@ -119,8 +106,8 @@ projects = {
     team_permission      = "push"
     repositories = [
       {
-        name               = ".github"
-        description        = "Karşılama Sayfası"
+        name               = "management"
+        description        = "Topluluk Yönetim Reposu"
         visibility         = "public"
       },
     ]
