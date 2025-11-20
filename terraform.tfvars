@@ -85,8 +85,7 @@ projects = {
       {
         name               = "project-loop-backend"
         description        = "Project Loop için Backend Servisleri"
-        visibility         = "private"
-        license            = "apache-2.0"
+        visibility         = "public"
         gitignore_template = "Node"
       }
       # {
@@ -110,10 +109,35 @@ projects = {
         username = "hulyaoner"
         role     = "member"
       },
-
-
     ]
   }
+
+  "management" = {
+    project_display_name = "Management Team"
+    project_lead         = "hakanceran64"
+    team_name            = "management"
+    team_permission      = "push"
+    repositories = [
+      {
+        name               = ".gitignore"
+        description        = "Karşılama Sayfası"
+        visibility         = "public"
+      },
+    ]
+    members = [
+      {
+        username = "hakanceran64"
+        role     = "member"
+      },
+      {
+        username = "hulyaoner"
+        role     = "member"
+      },
+    ]
+  }
+
+
+  
 }
 
 #=============================================================================
