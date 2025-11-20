@@ -106,9 +106,9 @@ projects = {
     team_permission      = "push"
     repositories = [
       {
-        name               = "management"
-        description        = "Topluluk Yönetim Reposu"
-        visibility         = "public"
+        name        = "management"
+        description = "Topluluk Yönetim Reposu"
+        visibility  = "public"
       },
     ]
     members = [
@@ -124,7 +124,7 @@ projects = {
   }
 
 
-  
+
 }
 
 #=============================================================================
