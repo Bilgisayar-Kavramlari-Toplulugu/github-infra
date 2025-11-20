@@ -75,13 +75,6 @@ projects = {
     team_name            = "Loop"
     team_permission      = "push"
     repositories = [
-      # {
-      #   name               = "project-loop"
-      #   description        = "Loop Projesi Reposu"
-      #   visibility         = "public"
-      #   license            = "mit"
-      #   gitignore_template = "C++"
-      # },
       {
         name               = "project-loop-mobile-app"
         description        = "Project Loop için Mobil Uygulama"
@@ -96,6 +89,13 @@ projects = {
         license            = "apache-2.0"
         gitignore_template = "Node"
       }
+      # {
+      #   name               = "project-loop"
+      #   description        = "Loop Projesi Reposu"
+      #   visibility         = "public"
+      #   license            = "mit"
+      #   gitignore_template = "C++"
+      # },
     ]
     members = [
       {
