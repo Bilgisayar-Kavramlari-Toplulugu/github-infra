@@ -119,7 +119,7 @@ projects = {
     team_permission      = "push"
     repositories = [
       {
-        name               = ".gitignore"
+        name               = ".github"
         description        = "Karşılama Sayfası"
         visibility         = "public"
       },
