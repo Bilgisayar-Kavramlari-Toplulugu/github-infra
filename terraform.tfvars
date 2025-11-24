@@ -127,6 +127,29 @@ projects = {
     ]
   }
 
+  # ========================================
+  # TEST PROJE: Private Repo Branch Protection Issue
+  # ========================================
+  "test-private-repo" = {
+    project_display_name = "TEST - Private Repo Branch Protection"
+    project_lead         = "Shamsiaa" # Your username
+    team_name            = "test-private-team"
+    team_permission      = "push"
+    repositories = [
+      {
+        name        = "test-private-repo-issue"
+        description = "TESTING - Private repo branch protection issue - DELETE AFTER TEST"
+        visibility  = "private" # This will cause the error
+        license     = "mit"
+      }
+    ]
+    members = [
+      {
+        username = "Shamsiaa" # Your username
+        role     = "maintainer"
+      }
+    ]
+  }
 
 }
 
