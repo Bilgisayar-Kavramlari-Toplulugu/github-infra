@@ -96,9 +96,9 @@ resource "github_issue_label" "report_abuse" {
 
   lifecycle {
     ignore_changes = [
-      repository, 
-      name, 
-      color, 
+      repository,
+      name,
+      color,
       description
     ]
   }
@@ -116,9 +116,9 @@ resource "github_issue_label" "needs_triage" {
 
   lifecycle {
     ignore_changes = [
-      repository, 
-      name, 
-      color, 
+      repository,
+      name,
+      color,
       description
     ]
   }
@@ -136,9 +136,9 @@ resource "github_issue_label" "bug" {
 
   lifecycle {
     ignore_changes = [
-      repository, 
-      name, 
-      color, 
+      repository,
+      name,
+      color,
       description
     ]
   }
@@ -156,9 +156,9 @@ resource "github_issue_label" "enhancement" {
 
   lifecycle {
     ignore_changes = [
-      repository, 
-      name, 
-      color, 
+      repository,
+      name,
+      color,
       description
     ]
   }
@@ -176,9 +176,9 @@ resource "github_issue_label" "task" {
 
   lifecycle {
     ignore_changes = [
-      repository, 
-      name, 
-      color, 
+      repository,
+      name,
+      color,
       description
     ]
   }
