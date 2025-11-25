@@ -134,11 +134,11 @@ projects = {
     team_permission      = "push"
     repositories = [
       {
-        name                = "project-platform"
-        description         = "This Repo creates and manages BKT Platform"
-        visibility          = "public"
-        license             = "apache-2.0"
-        gitignore_template  = "Terraform"
+        name               = "project-platform"
+        description        = "This Repo creates and manages BKT Platform"
+        visibility         = "public"
+        license            = "apache-2.0"
+        gitignore_template = "Terraform"
       }
     ]
     members = [
