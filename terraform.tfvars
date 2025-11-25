@@ -149,6 +149,33 @@ projects = {
     ]
   }
 
+  "SkillCard" = {
+    project_display_name = "Otomatik olarak Profil Kartı oluşturma projesi"
+    project_lead         = "hakanceran64"
+    team_name            = "skillcard"
+    team_permission      = "push"
+    repositories = [
+      {
+        name               = "project-skillcard"
+        description        = "Skill Card Projesi Reposu"
+        visibility         = "public"
+        license            = "mit"
+      },
+    ]
+    members = [
+      {
+        username = "belmuh"
+        role     = "member"
+      },
+      {
+        username = "hulyaoner"
+        role     = "member"
+      },
+    ]
+  }
+
+
+
 }
 
 #=============================================================================
