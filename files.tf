@@ -24,12 +24,12 @@ resource "github_repository_file" "Project-Definition" {
     github_repository_collaborator.project_lead
   ]
 
-  # lifecycle {
-  #   ignore_changes = [
-  #     content,
-  #     commit_message
-  #   ]
-  # }
+  lifecycle {
+    ignore_changes = [
+      content,
+      commit_message
+    ]
+  }
 }
 
 # Architecture Overview document
@@ -49,12 +49,12 @@ resource "github_repository_file" "Architecture-Overview" {
     github_repository.repo
 
   ]
-  # lifecycle {
-  #   ignore_changes = [
-  #     content,
-  #     commit_message
-  #   ]
-  # }
+  lifecycle {
+    ignore_changes = [
+      content,
+      commit_message
+    ]
+  }
 }
 
 # Development Workflow document
@@ -74,12 +74,12 @@ resource "github_repository_file" "Development-Workflow" {
     github_repository.repo
   ]
 
-  # lifecycle {
-  #   ignore_changes = [
-  #     content,
-  #     commit_message
-  #   ]
-  # }
+  lifecycle {
+    ignore_changes = [
+      content,
+      commit_message
+    ]
+  }
 }
 
 # Verified Commits Guide document
@@ -98,12 +98,12 @@ resource "github_repository_file" "Verified-Commits-Guide" {
     github_repository.repo
   ]
 
-  # lifecycle {
-  #   ignore_changes = [
-  #     content,
-  #     commit_message
-  #   ]
-  # }
+  lifecycle {
+    ignore_changes = [
+      content,
+      commit_message
+    ]
+  }
 }
 
 # Dynamic content for the Team page
@@ -150,12 +150,12 @@ resource "github_repository_file" "team" {
     github_team.project
   ]
 
-  # lifecycle {
-  #   ignore_changes = [
-  #     content,
-  #     commit_message
-  #   ]
-  # }
+  lifecycle {
+    ignore_changes = [
+      content,
+      commit_message
+    ]
+  }
 }
 
 # README file with dynamic content
@@ -186,12 +186,12 @@ resource "github_repository_file" "readme" {
 
   overwrite_on_create = true # This will overwrite the auto-generated README
 
-  # lifecycle {
-  #   ignore_changes = [
-  #     content,
-  #     commit_message
-  #   ]
-  # }
+  lifecycle {
+    ignore_changes = [
+      content,
+      commit_message
+    ]
+  }
 }
 
 # CONTRIBUTING file with dynamic content
@@ -209,12 +209,12 @@ resource "github_repository_file" "contributing" {
 
   overwrite_on_create = true # This will overwrite the auto-generated README
 
-  # lifecycle {
-  #   ignore_changes = [
-  #     content,
-  #     commit_message
-  #   ]
-  # }
+  lifecycle {
+    ignore_changes = [
+      content,
+      commit_message
+    ]
+  }
 }
 
 # Code of Conduct file with dynamic content
@@ -233,12 +233,12 @@ resource "github_repository_file" "code_of_conduct" {
     github_repository.repo
   ]
 
-  # lifecycle {
-  #   ignore_changes = [
-  #     content,
-  #     commit_message
-  #   ]
-  # }
+  lifecycle {
+    ignore_changes = [
+      content,
+      commit_message
+    ]
+  }
 }
 
 # Wiki Home page with dynamic content
@@ -272,12 +272,12 @@ resource "github_repository_file" "wiki_home" {
     github_team.project
   ]
 
-  # lifecycle {
-  #   ignore_changes = [
-  #     content,
-  #     commit_message
-  #   ]
-  # }
+  lifecycle {
+    ignore_changes = [
+      content,
+      commit_message
+    ]
+  }
 }
 
 # Create .gitignore file if no template is specified
@@ -299,12 +299,12 @@ resource "github_repository_file" "gitignore" {
     github_repository.repo
   ]
 
-  # lifecycle {
-  #   ignore_changes = [
-  #     content,
-  #     commit_message
-  #   ]
-  # }
+  lifecycle {
+    ignore_changes = [
+      content,
+      commit_message
+    ]
+  }
 }
 
 
@@ -327,12 +327,12 @@ resource "github_repository_file" "codeowners" {
     github_repository.repo
   ]
 
-  # lifecycle {
-  #   ignore_changes = [
-  #     content,
-  #     commit_message
-  #   ]
-  # }
+  lifecycle {
+    ignore_changes = [
+      content,
+      commit_message
+    ]
+  }
 }
 
 # Create default pull request template
@@ -350,12 +350,12 @@ resource "github_repository_file" "pr_template" {
     github_repository.repo
   ]
 
-  # lifecycle {
-  #   ignore_changes = [
-  #     content,
-  #     commit_message
-  #   ]
-  # }
+  lifecycle {
+    ignore_changes = [
+      content,
+      commit_message
+    ]
+  }
 }
 
 # REPORTED CONTENT & ISSUE TEMPLATES SYSTEM
@@ -381,12 +381,12 @@ resource "github_repository_file" "issue_template_config" {
     github_repository.repo
   ]
 
-  # lifecycle {
-  #   ignore_changes = [
-  #     content,
-  #     commit_message
-  #   ]
-  # }
+  lifecycle {
+    ignore_changes = [
+      content,
+      commit_message
+    ]
+  }
 
 }
 
@@ -415,12 +415,12 @@ resource "github_repository_file" "report_abuse_template" {
     github_repository_collaborator.project_lead
   ]
 
-  # lifecycle {
-  #   ignore_changes = [
-  #     content,
-  #     commit_message
-  #   ]
-  # }
+  lifecycle {
+    ignore_changes = [
+      content,
+      commit_message
+    ]
+  }
 }
 
 # Task template
@@ -438,12 +438,12 @@ resource "github_repository_file" "task_template" {
     github_repository.repo
   ]
 
-  # lifecycle {
-  #   ignore_changes = [
-  #     content,
-  #     commit_message
-  #   ]
-  # }
+  lifecycle {
+    ignore_changes = [
+      content,
+      commit_message
+    ]
+  }
 }
 
 # Bug report template
@@ -461,12 +461,12 @@ resource "github_repository_file" "bug_report_template" {
     github_repository.repo
   ]
 
-  # lifecycle {
-  #   ignore_changes = [
-  #     content,
-  #     commit_message
-  #   ]
-  # }
+  lifecycle {
+    ignore_changes = [
+      content,
+      commit_message
+    ]
+  }
 }
 
 # Feature request template
@@ -484,10 +484,10 @@ resource "github_repository_file" "feature_request_template" {
     github_repository.repo
   ]
 
-  # lifecycle {
-  #   ignore_changes = [
-  #     content,
-  #     commit_message
-  #   ]
-  # }
+  lifecycle {
+    ignore_changes = [
+      content,
+      commit_message
+    ]
+  }
 }

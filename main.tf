@@ -85,12 +85,12 @@ resource "github_repository" "repo" {
   allow_rebase_merge = false
   allow_auto_merge   = true
 
-  # lifecycle {
-  #   ignore_changes = [
-  #     description,
-  #     visibility
-  #   ]
-  # }
+  lifecycle {
+    ignore_changes = [
+      description,
+      visibility
+    ]
+  }
 }
 
 # Set up team access to repositories
