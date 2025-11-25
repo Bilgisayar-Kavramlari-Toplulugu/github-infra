@@ -156,10 +156,10 @@ projects = {
     team_permission      = "push"
     repositories = [
       {
-        name               = "project-skillcard"
-        description        = "Skill Card Projesi Reposu"
-        visibility         = "public"
-        license            = "mit"
+        name        = "project-skillcard"
+        description = "Skill Card Projesi Reposu"
+        visibility  = "public"
+        license     = "mit"
       },
     ]
     members = [
