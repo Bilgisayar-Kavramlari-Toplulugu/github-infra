@@ -15,14 +15,14 @@ resource "github_issue_label" "setup" {
 
   depends_on = [github_repository.repo]
 
-  # lifecycle {
-  #   ignore_changes = [
-  #     repository,
-  #     name,
-  #     color,
-  #     description
-  #   ]
-  # }
+  lifecycle {
+    ignore_changes = [
+      repository,
+      name,
+      color,
+      description
+    ]
+  }
 }
 
 resource "github_issue_label" "priority_high" {
@@ -35,14 +35,14 @@ resource "github_issue_label" "priority_high" {
 
   depends_on = [github_repository.repo]
 
-  # lifecycle {
-  #   ignore_changes = [
-  #     repository,
-  #     name,
-  #     color,
-  #     description
-  #   ]
-  # }
+  lifecycle {
+    ignore_changes = [
+      repository,
+      name,
+      color,
+      description
+    ]
+  }
 }
 
 # Create initial setup issue for each project
@@ -68,15 +68,15 @@ resource "github_issue" "initial_setup" {
     github_issue_label.priority_high
   ]
 
-  # lifecycle {
-  #   ignore_changes = [
-  #     title,
-  #     body,
-  #     assignees,
-  #     labels,
-  #     repository
-  #   ]
-  # }
+  lifecycle {
+    ignore_changes = [
+      title,
+      body,
+      assignees,
+      labels,
+      repository
+    ]
+  }
 }
 
 
@@ -94,14 +94,14 @@ resource "github_issue_label" "report_abuse" {
 
   depends_on = [github_repository.repo]
 
-  # lifecycle {
-  #   ignore_changes = [
-  #     repository, 
-  #     name, 
-  #     color, 
-  #     description
-  #   ]
-  # }
+  lifecycle {
+    ignore_changes = [
+      repository,
+      name,
+      color,
+      description
+    ]
+  }
 }
 
 resource "github_issue_label" "needs_triage" {
@@ -114,14 +114,14 @@ resource "github_issue_label" "needs_triage" {
 
   depends_on = [github_repository.repo]
 
-  # lifecycle {
-  #   ignore_changes = [
-  #     repository, 
-  #     name, 
-  #     color, 
-  #     description
-  #   ]
-  # }
+  lifecycle {
+    ignore_changes = [
+      repository,
+      name,
+      color,
+      description
+    ]
+  }
 }
 
 resource "github_issue_label" "bug" {
@@ -134,14 +134,14 @@ resource "github_issue_label" "bug" {
 
   depends_on = [github_repository.repo]
 
-  # lifecycle {
-  #   ignore_changes = [
-  #     repository, 
-  #     name, 
-  #     color, 
-  #     description
-  #   ]
-  # }
+  lifecycle {
+    ignore_changes = [
+      repository,
+      name,
+      color,
+      description
+    ]
+  }
 }
 
 resource "github_issue_label" "enhancement" {
@@ -154,14 +154,14 @@ resource "github_issue_label" "enhancement" {
 
   depends_on = [github_repository.repo]
 
-  # lifecycle {
-  #   ignore_changes = [
-  #     repository, 
-  #     name, 
-  #     color, 
-  #     description
-  #   ]
-  # }
+  lifecycle {
+    ignore_changes = [
+      repository,
+      name,
+      color,
+      description
+    ]
+  }
 }
 
 resource "github_issue_label" "task" {
@@ -174,12 +174,12 @@ resource "github_issue_label" "task" {
 
   depends_on = [github_repository.repo]
 
-  # lifecycle {
-  #   ignore_changes = [
-  #     repository, 
-  #     name, 
-  #     color, 
-  #     description
-  #   ]
-  # }
+  lifecycle {
+    ignore_changes = [
+      repository,
+      name,
+      color,
+      description
+    ]
+  }
 }
