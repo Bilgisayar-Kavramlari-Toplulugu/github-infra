@@ -111,7 +111,7 @@ projects = {
         name        = "management"
         description = "Yönetim Paneli Projesi Reposu"
         visibility  = "public"
-        has_wiki = true
+        has_wiki    = true
       },
     ]
     members = [
