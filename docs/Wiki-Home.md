@@ -5,7 +5,7 @@
 Bu alan, **{{PROJECT_NAME}}** projesinin yaşayan dokümantasyon merkezidir. Projenin mimarisi, tasarım kararları ve uzun vadeli bilgileri burada yer alacaktır.
 
 👤 **Proje Lideri:** @{{PROJECT_LEAD}}  
-👥 **Takım:** {{TEAM_NAME}}[https://github.com/orgs/{{GITHUB_ORG}}/teams/{{TEAM_NAME}}]
+👥 **Takım:** [{{TEAM_NAME}} Üyeleri](https://github.com/orgs/{{GITHUB_ORG}}/teams/{{TEAM_NAME}})
 ---
 
 ### 📝 Wiki'yi Kullanma Rehberi
@@ -37,7 +37,7 @@ This is the living documentation hub for the **{{PROJECT_NAME}}** project. The p
 
 
 👤 **Project Lead:** @{{PROJECT_LEAD}}  
-👥 **Team:** [{{TEAM_NAME}}](https://github.com/orgs/{{GITHUB_ORG}}/teams/{{TEAM_NAME}})
+👥 **Team:** [{{TEAM_NAME}} Members](https://github.com/orgs/{{GITHUB_ORG}}/teams/{{TEAM_NAME}})
 
 ---
 
