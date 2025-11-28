@@ -139,9 +139,9 @@ resource "github_branch" "develop" {
   depends_on = [github_repository.repo]
 }
 
-# Branch protection rules
+# Branch protection rules (only for public repositories)
 resource "github_branch_protection" "main" {
-  for_each = { for repo in local.all_repos : repo.repo_name => repo }
+  for_each = { for repo in local.all_repos : repo.repo_name => repo if repo.visibility == "public" }
 
   repository_id = github_repository.repo[each.key].node_id
   pattern       = "main"
