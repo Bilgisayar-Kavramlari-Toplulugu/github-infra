@@ -205,6 +205,7 @@ projects = {
         description = "Skill Card Projesi Reposu"
         visibility  = "public"
         license     = "mit"
+        has_wiki    = true
       },
     ]
     members = [

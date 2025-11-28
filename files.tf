@@ -272,12 +272,12 @@ resource "github_repository_file" "wiki_home" {
     github_team.project
   ]
 
-  lifecycle {
-    ignore_changes = [
-      content,
-      commit_message
-    ]
-  }
+  # lifecycle {
+  #   ignore_changes = [
+  #     content,
+  #     commit_message
+  #   ]
+  # }
 }
 
 # Create .gitignore file if no template is specified
