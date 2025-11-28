@@ -115,11 +115,55 @@ projects = {
     ]
     members = [
       {
-        username = "karalarmehmet"
+        username = "halil-ibrahim-demir"
+        role     = "member"
+      },
+      {
+        username = "adenercan"
+        role     = "member"
+      },
+      {
+        username = "alierenaytar"
+        role     = "member"
+      },
+      {
+        username = "gozdeinan"
+        role     = "member"
+      },
+      {
+        username = "gecicidegisken"
         role     = "member"
       },
       {
         username = "hulyaoner"
+        role     = "member"
+      },
+      {
+        username = "BilgisayarKavramlari"
+        role     = "member"
+      },
+      {
+        username = "SafakSahinn"
+        role     = "member"
+      },
+      {
+        username = "YaseminDenizOzturk"
+        role     = "member"
+      },
+      {
+        username = "alperenkbd"
+        role     = "member"
+      },
+      {
+        username = "BerattCelikk"
+        role     = "member"
+      },
+      {
+        username = "tlpkurt"
+        role     = "member"
+      },
+      {
+        username = "burakoner"
         role     = "member"
       },
 
