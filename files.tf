@@ -277,6 +277,7 @@ resource "github_repository_file" "wiki_home" {
       content,
       commit_message
     ]
+  }
 
 }
 
