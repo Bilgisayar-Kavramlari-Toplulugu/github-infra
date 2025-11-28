@@ -110,7 +110,7 @@ projects = {
       {
         name        = "management"
         description = "Yönetim Paneli Projesi Reposu"
-        visibility  = "public"
+        visibility  = "private"
         has_wiki    = true
       },
     ]
