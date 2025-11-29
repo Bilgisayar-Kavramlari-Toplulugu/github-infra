@@ -246,6 +246,26 @@ projects = {
         username = "Shamsiaa"
         role     = "member"
       },
+      {
+        username = "Eness3734"
+        role     = "member"
+      },
+      {
+        username = "belmuh"
+        role     = "member"
+      },
+      {
+        username = "hulyaoner"
+        role     = "member"
+      },
+      {
+        username = "demirgulsen"
+        role     = "member"
+      },
+      {
+        username = "fatmatosunytu"
+        role     = "member"
+      },
 
     ]
   }
