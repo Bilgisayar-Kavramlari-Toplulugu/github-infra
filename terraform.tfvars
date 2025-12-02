@@ -238,6 +238,48 @@ projects = {
         username = "flovearth"
         role     = "member"
       },
+      {
+        username = "MustafaKocamann"
+        role     = "member"
+      },
+      {
+        username = "Shamsiaa"
+        role     = "member"
+      },
+      {
+        username = "Eness3734"
+        role     = "member"
+      },
+      {
+        username = "belmuh"
+        role     = "member"
+      },
+      {
+        username = "hulyaoner"
+        role     = "member"
+      },
+      {
+        username = "demirgulsen"
+        role     = "member"
+      },
+      {
+        username = "fatmatosunytu"
+        role     = "member"
+      },
+      {
+        username = "havvaksac85"
+        role     = "member"
+      },
+      {
+        username = "Sekolas"
+        role     = "member"
+      },
+      {
+        username = "GizzYii"
+        role     = "member"
+      },
+
+
 
     ]
   }
