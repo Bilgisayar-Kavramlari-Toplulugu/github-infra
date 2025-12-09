@@ -297,7 +297,7 @@ projects = {
       {
         username = "anenthusiastic"
         role     = "member"
-      },      
+      },
       {
         username = "hakanceran64"
         role     = "member"
