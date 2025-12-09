@@ -279,7 +279,47 @@ projects = {
 
     ]
   }
-
+  "AfetErkenUyari" = {
+    project_display_name = "Afet Erken Uyari Sistemi"
+    project_lead         = "elifsoyleyici"
+    team_name            = "skillcard"
+    team_permission      = "push"
+    repositories = [
+      {
+        name        = "project-AfetErenUyari"
+        description = "Afet Erken Uyari Sistemi Projesi Reposu"
+        visibility  = "public"
+        license     = "mit"
+        has_wiki    = true
+      },
+    ]
+    members = [
+      {
+        username = "anenthusiastic"
+        role     = "member"
+      },      
+      {
+        username = "hakanceran64"
+        role     = "member"
+      },
+      {
+        username = "hulyaoner"
+        role     = "member"
+      },
+      {
+        username = "flovearth"
+        role     = "member"
+      },
+      {
+        username = "GizzYii"
+        role     = "member"
+      },
+      {
+        username = "myr2001"
+        role     = "member"
+      },
+    ]
+  }
 
 }
 
