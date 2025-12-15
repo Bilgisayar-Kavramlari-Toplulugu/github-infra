@@ -76,16 +76,44 @@ projects = {
     team_permission      = "push"
     repositories = [
       {
-        name               = "project-loop"
-        description        = "Loop Projesi Reposu"
+        name               = "project-loop-mobile-android-app"
+        description        = "Loop Project Mobile Android Repo"
+        visibility         = "public"
+        license            = "mit"
+        gitignore_template = "Android"
+      },
+      {
+        name               = "project-loop-mobile-ios-app"
+        description        = "Loop Project Mobile iOS Repo"
+        visibility         = "public"
+        license            = "mit"
+        gitignore_template = "Swift"
+      },
+      {
+        name               = "project-loop-desktop-app"
+        description        = "Loop Project Desktop Repo"
         visibility         = "public"
         license            = "mit"
         gitignore_template = "C++"
       },
+      {
+        name               = "project-loop-backend"
+        description        = "Loop Project Backend Repo"
+        visibility         = "public"
+        license            = "mit"
+        gitignore_template = "Go"
+      },
+      {
+        name               = "project-loop-frontend"
+        description        = "Loop Project Frontend Repo"
+        visibility         = "public"
+        license            = "mit"
+        gitignore_template = "Node"
+      }
     ]
     members = [
       {
-        username = "flovearth"
+        username = "egeeren"
         role     = "member"
       },
       {
@@ -93,11 +121,181 @@ projects = {
         role     = "member"
       },
       {
+        username = "musakoksal"
+        role     = "member"
+      },
+      {
+        username = "the-forward"
+        role     = "member"
+      },
+      {
+        username = "nisaargin4-hash"
+        role     = "member"
+      },
+      {
+        username = "EyyupHikmet"
+        role     = "member"
+      },
+      {
+        username = "ismailaricioglu"
+        role     = "member"
+      },
+      {
+        username = "cihangiryaman"
+        role     = "member"
+      },
+      {
+        username = "belmuh"
+        role     = "member"
+      },
+      {
+        username = "SecondHakan"
+        role     = "member"
+      },
+      {
+        username = "berkaycekmez"
+        role     = "member"
+      },
+      {
+        username = "UlasUzun"
+        role     = "member"
+      },
+      {
+        username = "omersmsr"
+        role     = "member"
+      },
+      {
+        username = "ySr-klc"
+        role     = "member"
+      },
+      {
+        username = "busraclik"
+        role     = "member"
+      },
+      {
+        username = "RabiaNurAcarturk"
+        role     = "member"
+      },
+      {
+        username = "tlpkurt"
+        role     = "member"
+      },
+      {
+        username = "bahadiraraz"
+        role     = "member"
+      },
+      {
+        username = "Feyat"
+        role     = "member"
+      },
+      {
+        username = "EminAksoy3427"
+        role     = "member"
+      },
+      {
+        username = "engin-eer"
+        role     = "member"
+      },
+      {
+        username = "GizzYii"
+        role     = "member"
+      },
+      {
+        username = "elifsoyleyici"
+        role     = "member"
+      },
+      {
+        username = "omerakturk10"
+        role     = "member"
+      },
+      {
+        username = "ysfcc"
+        role     = "member"
+      },
+      {
+        username = "emin-cetin"
+        role     = "member"
+      },
+      {
+        username = "flovearth"
+        role     = "member"
+      },
+      {
+        username = "gozdeinan"
+        role     = "member"
+      },
+      {
+        username = "Usainsasal"
+        role     = "member"
+      },
+      {
+        username = "yusatll"
+        role     = "member"
+      },
+      {
+        username = "Husam1498"
+        role     = "member"
+      },
+      {
+        username = "purfatih"
+        role     = "member"
+      },
+      {
+        username = "lerkush"
+        role     = "member"
+      },
+      {
+        username = "LyotardPostmodernizm"
+        role     = "member"
+      },
+      {
+        username = "Beyzakttas"
+        role     = "member"
+      },
+      {
+        username = "ucribrhm"
+        role     = "member"
+      },
+      {
+        username = "rfurkan37"
+        role     = "member"
+      },
+      {
+        username = "scanpdll"
+        role     = "member"
+      },
+      {
+        username = "dogu-omer"
+        role     = "member"
+      },
+      {
+        username = "furkycl"
+        role     = "member"
+      },
+      {
+        username = "yasinsahbaz"
+        role     = "member"
+      },
+      {
+        username = "berkcangumusisik"
+        role     = "member"
+      },
+      {
+        username = "demirgulsen"
+        role     = "member"
+      },
+      {
+        username = "barandasdemir0"
+        role     = "member"
+      },
+      {
+        username = "halil-ibrahim-demir"
+        role     = "member"
+      },
+      {
         username = "hulyaoner"
         role     = "member"
       },
-
-
     ]
   }
 
