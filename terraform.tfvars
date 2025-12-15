@@ -394,13 +394,13 @@ projects = {
 
   "SkillCard" = {
     project_display_name = "Otomatik olarak Profil Kartı oluşturma projesi"
-    project_lead         = "hakanceran64"
+    project_lead         = "tlpkurt"
     team_name            = "skillcard"
     team_permission      = "push"
     repositories = [
       {
         name        = "project-skillcard"
-        description = "Skill Card Projesi Reposu"
+        description = "Skill Card Project Repository"
         visibility  = "public"
         license     = "mit"
         has_wiki    = true
@@ -408,7 +408,103 @@ projects = {
     ]
     members = [
       {
+        username = "hakanceran64"
+        role     = "member"
+      },
+      {
+        username = "slymanmrcan"
+        role     = "member"
+      },
+      {
+        username = "anenthusiastic"
+        role     = "member"
+      },
+      {
+        username = "ismailaricioglu"
+        role     = "member"
+      },
+      {
         username = "belmuh"
+        role     = "member"
+      },
+      {
+        username = "Shamsiaa"
+        role     = "member"
+      },
+      {
+        username = "nehircimen"
+        role     = "member"
+      },
+      {
+        username = "altnsksema"
+        role     = "member"
+      },
+      {
+        username = "GizzYii"
+        role     = "member"
+      },
+      {
+        username = "ayhanarican"
+        role     = "member"
+      },
+      {
+        username = "ysfcc"
+        role     = "member"
+      },
+      {
+        username = "kubraevren"
+        role     = "member"
+      },
+      {
+        username = "Usainsasal"
+        role     = "member"
+      },
+      {
+        username = "mrfiratatalay"
+        role     = "member"
+      },
+      {
+        username = "CaglaOkmen"
+        role     = "member"
+      },
+      {
+        username = "selin-tutuncu"
+        role     = "member"
+      },
+      {
+        username = "kemalkilicaslan"
+        role     = "member"
+      },
+      {
+        username = "cankayafaruk"
+        role     = "member"
+      },
+      {
+        username = "4839490"
+        role     = "member"
+      },
+      {
+        username = "Zeycer"
+        role     = "member"
+      },
+      {
+        username = "dogu-omer"
+        role     = "member"
+      },
+      {
+        username = "emrebostanoglu"
+        role     = "member"
+      },
+      {
+        username = "berkcangumusisik"
+        role     = "member"
+      },
+      {
+        username = "aycabasaran1"
+        role     = "member"
+      },
+      {
+        username = "hakancemG"
         role     = "member"
       },
       {
