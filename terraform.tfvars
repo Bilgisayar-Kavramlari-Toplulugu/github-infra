@@ -166,7 +166,7 @@ projects = {
     ]
   }
 
-    "OpenTeamManager" = {
+  "OpenTeamManager" = {
     project_display_name = "Ekip yönetimini basitleştir, verimliliği artır!"
     project_lead         = "hakanceran64"
     team_name            = "OpenTeamManager"
