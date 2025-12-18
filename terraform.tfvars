@@ -69,6 +69,192 @@ projects = {
   #   ]
   # }
 
+  "DevBoard" = {
+    project_display_name = "Projelerini sergile, yeteneklerini göster ve keşfet!"
+    project_lead         = "hakanceran64"
+    team_name            = "DevBoard"
+    team_permission      = "push"
+    repositories = [
+      {
+        name               = "project-devboard-frontend"
+        description        = "DevBoard Project Frontend Repo"
+        visibility         = "public"
+        license            = "mit"
+        gitignore_template = "Node"
+      },
+      {
+        name               = "project-devboard-backend"
+        description        = "DevBoard Project Backend Repo"
+        visibility         = "public"
+        license            = "mit"
+        gitignore_template = "Python"
+      },
+    ]
+    members = [
+      {
+        username = "egeeren"
+        role     = "member"
+      },
+      {
+        username = "slymanmrcan"
+        role     = "member"
+      },
+      {
+        username = "anenthusiastic"
+        role     = "member"
+      },
+      {
+        username = "semihaberra"
+        role     = "member"
+      },
+      {
+        username = "Kadir0642"
+        role     = "member"
+      },
+      {
+        username = "nehircimen"
+        role     = "member"
+      },
+      {
+        username = "omerakturk10"
+        role     = "member"
+      },
+      {
+        username = "umutssl"
+        role     = "member"
+      },
+      {
+        username = "Usainsasal"
+        role     = "member"
+      },
+      {
+        username = "onurdoker"
+        role     = "member"
+      },
+      {
+        username = "hakancemG"
+        role     = "member"
+      },
+      {
+        username = "kemalkilicaslan"
+        role     = "member"
+      },
+      {
+        username = "scanpdll"
+        role     = "member"
+      },
+      {
+        username = "dogu-omer"
+        role     = "member"
+      },
+      {
+        username = "aycabasaran1"
+        role     = "member"
+      },
+      {
+        username = "berkcangumusisik"
+        role     = "member"
+      },
+      {
+        username = "dilsahtufan27-png"
+        role     = "member"
+      },
+      {
+        username = "nurrsena"
+        role     = "member"
+      },
+    ]
+  }
+
+  "OpenTeamManager" = {
+    project_display_name = "Ekip yönetimini basitleştir, verimliliği artır!"
+    project_lead         = "hakanceran64"
+    team_name            = "OpenTeamManager"
+    team_permission      = "push"
+    repositories = [
+      {
+        name               = "project-openteammanager-frontend"
+        description        = "OpenTeamManager Project Frontend Repo"
+        visibility         = "public"
+        license            = "mit"
+        gitignore_template = "Node"
+      },
+      {
+        name               = "project-openteammanager-backend"
+        description        = "OpenTeamManager Project Backend Repo"
+        visibility         = "public"
+        license            = "mit"
+        gitignore_template = "Go"
+      },
+    ]
+    members = [
+      {
+        username = "slymanmrcan"
+        role     = "member"
+      },
+      {
+        username = "the-forward"
+        role     = "member"
+      },
+      {
+        username = "silanaba"
+        role     = "member"
+      },
+      {
+        username = "Enisuzunn"
+        role     = "member"
+      },
+      {
+        username = "Feyat"
+        role     = "member"
+      },
+      {
+        username = "elifsoyleyici"
+        role     = "member"
+      },
+      {
+        username = "ysfcc"
+        role     = "member"
+      },
+      {
+        username = "umutssl"
+        role     = "member"
+      },
+      {
+        username = "dogu-omer"
+        role     = "member"
+      },
+      {
+        username = "HumeyraErtas"
+        role     = "member"
+      },
+      {
+        username = "Cezik01"
+        role     = "member"
+      },
+      {
+        username = "aycabasaran1"
+        role     = "member"
+      },
+      {
+        username = "berkcangumusisik"
+        role     = "member"
+      },
+      {
+        username = "maliuyanik"
+        role     = "member"
+      },
+      {
+        username = "dilsahtufan27-png"
+        role     = "member"
+      },
+      {
+        username = "nurrsena"
+        role     = "member"
+      },
+    ]
+  }
+
   "Loop" = {
     project_display_name = "Geliştirici Odaklı İşbirliği Platformu Projesi"
     project_lead         = "hakanceran64"
