@@ -697,6 +697,8 @@ projects = {
         username = "hulyaoner"
         role     = "member"
       },
+    ]
+  },
 
   "FindMyWay" = {
     project_display_name = "FindMyWay yapay zekâ destekli kişisel kariyer ve yaşam planlama platformudur."
@@ -753,8 +755,6 @@ projects = {
         username = "GizzYii"
         role     = "member"
       },
-
-
     ]
   }
 
