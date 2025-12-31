@@ -88,7 +88,8 @@ resource "github_repository" "repo" {
   lifecycle {
     ignore_changes = [
       description,
-      visibility
+      visibility,
+      has_wiki
     ]
   }
 }
