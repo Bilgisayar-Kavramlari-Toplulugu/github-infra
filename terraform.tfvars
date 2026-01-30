@@ -694,6 +694,64 @@ projects = {
         role     = "member"
       },
     ]
+  },
+
+  "FindMyWay" = {
+    project_display_name = "FindMyWay yapay zekâ destekli kişisel kariyer ve yaşam planlama platformudur."
+    project_lead         = "flovearth"
+    team_name            = "FindMyWay"
+    team_permission      = "push"
+    repositories = [
+      {
+        name        = "project-FindMyWay"
+        description = "FindMyWay yapay zekâ destekli kişisel kariyer ve yaşam planlama platformudur."
+        visibility  = "public"
+        license     = "apache-2.0"
+        has_wiki    = true
+      },
+    ]
+    members = [
+      {
+        username = "flovearth"
+        role     = "member"
+      },
+      {
+        username = "MustafaKocamann"
+        role     = "member"
+      },
+      {
+        username = "Shamsiaa"
+        role     = "member"
+      },
+      {
+        username = "Eness3734"
+        role     = "member"
+      },
+      {
+        username = "belmuh"
+        role     = "member"
+      },
+      {
+        username = "hulyaoner"
+        role     = "member"
+      },
+      {
+        username = "demirgulsen"
+        role     = "member"
+      },
+      {
+        username = "fatmatosunytu"
+        role     = "member"
+      },
+      {
+        username = "Sekolas"
+        role     = "member"
+      },
+      {
+        username = "GizzYii"
+        role     = "member"
+      },
+    ]
   }
 
 
