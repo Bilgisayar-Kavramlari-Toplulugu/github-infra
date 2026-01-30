@@ -140,10 +140,6 @@ projects = {
         role     = "member"
       },
       {
-        username = "scanpdll"
-        role     = "member"
-      },
-      {
         username = "dogu-omer"
         role     = "member"
       },
