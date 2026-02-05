@@ -152,10 +152,6 @@ projects = {
         role     = "member"
       },
       {
-        username = "dilsahtufan27-png"
-        role     = "member"
-      },
-      {
         username = "nurrsena"
         role     = "member"
       },
@@ -238,10 +234,6 @@ projects = {
       },
       {
         username = "maliuyanik"
-        role     = "member"
-      },
-      {
-        username = "dilsahtufan27-png"
         role     = "member"
       },
       {
