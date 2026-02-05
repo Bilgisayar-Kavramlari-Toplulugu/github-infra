@@ -695,7 +695,7 @@ projects = {
       },
     ]
   }
-  
+
   "zulip-automation" = {
     project_display_name = "Zulip daily quiz automation"
     project_lead         = "flovearth"
@@ -716,11 +716,11 @@ projects = {
         role     = "maintainer"
       },
       {
-        username = "Shamsiaa"
+        username = "slymanmrcan"
         role     = "member"
       },
       {
-        username = "slymanmrcan"
+        username = "Shamsiaa"
         role     = "member"
       },
       {
