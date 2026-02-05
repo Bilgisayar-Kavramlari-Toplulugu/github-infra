@@ -695,7 +695,52 @@ projects = {
       },
     ]
   }
-
+  
+  "zulip-automation" = {
+    project_display_name = "Zulip daily quiz automation"
+    project_lead         = "flovearth"
+    team_name            = "zulip-automation"
+    team_permission      = "push"
+    repositories = [
+      {
+        name        = "zulip-daily-quiz"
+        description = "Zulip daily quiz automation"
+        visibility  = "public"
+        license     = "mit"
+        has_wiki    = true
+      },
+    ]
+    members = [
+      {
+        username = "flovearth"
+        role     = "maintainer"
+      },
+      {
+        username = "Shamsiaa"
+        role     = "member"
+      },
+      {
+        username = "slymanmrcan"
+        role     = "member"
+      },
+      {
+        username = "lerkush"
+        role     = "member"
+      },
+      {
+        username = "ismailaricioglu"
+        role     = "member"
+      },
+      {
+        username = "karalarmehmet"
+        role     = "member"
+      },
+      {
+        username = "hakanceran64"
+        role     = "member"
+      },
+    ]
+  }
 
 }
 
