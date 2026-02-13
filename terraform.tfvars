@@ -729,7 +729,7 @@ projects = {
       },
     ]
   }
- "LearnOps" = {
+  "LearnOps" = {
     project_display_name = "Cloud and Devops Learning Platform"
     project_lead         = "flovearth"
     team_name            = "LearnOps"
