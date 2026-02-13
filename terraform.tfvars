@@ -736,19 +736,12 @@ projects = {
     team_permission      = "push"
     repositories = [
       {
-        name               = "learnops-backend"
-        description        = "LearnOps Project Repo"
+        name               = "project-learnops"
+        description        = "Cloud and Devops Learning Platform"
         visibility         = "public"
         license            = "mit"
         gitignore_template = "python"
       },
-      {
-        name               = "learnops-frontend"
-        description        = "LearnOps Project Repo"
-        visibility         = "public"
-        license            = "mit"
-        gitignore_template = "nextjs"
-      }
     ]
     members = [
       {
@@ -756,24 +749,16 @@ projects = {
         role     = "maintainer"
       },
       {
-        username = "flovearth"
-        role     = "maintainer"
-      },
-      {
-        username = "ismailaricioglu"
-        role     = "maintainer"
-      },
-      {
         username = "karalarmehmet"
-        role     = "maintainer"
+        role     = "member"
       },
       {
         username = "slymanmrcan"
-        role     = "maintainer"
+        role     = "member"
       },
       {
         username = "shamsiaa"
-        role     = "maintainer"
+        role     = "member"
       }
     ]
   }
