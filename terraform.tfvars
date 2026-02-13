@@ -729,7 +729,54 @@ projects = {
       },
     ]
   }
-
+ "LearnOps" = {
+    project_display_name = "Cloud and Devops Learning Platform"
+    project_lead         = "flovearth"
+    team_name            = "LearnOps"
+    team_permission      = "push"
+    repositories = [
+      {
+        name               = "learnops-backend"
+        description        = "LearnOps Project Repo"
+        visibility         = "public"
+        license            = "mit"
+        gitignore_template = "python"
+      },
+      {
+        name               = "learnops-frontend"
+        description        = "LearnOps Project Repo"
+        visibility         = "public"
+        license            = "mit"
+        gitignore_template = "nextjs"
+      }
+    ]
+    members = [
+      {
+        username = "lerkush"
+        role     = "maintainer"
+      },
+      {
+        username = "flovearth"
+        role     = "maintainer"
+      },
+      {
+        username = "ismailaricioglu"
+        role     = "maintainer"
+      },
+      {
+        username = "karalarmehmet"
+        role     = "maintainer"
+      },
+      {
+        username = "slymanmrcan"
+        role     = "maintainer"
+      },
+      {
+        username = "shamsiaa"
+        role     = "maintainer"
+      }
+    ]
+  }
 }
 
 #=============================================================================
