@@ -740,7 +740,7 @@ projects = {
         description        = "Cloud and Devops Learning Platform"
         visibility         = "public"
         license            = "mit"
-        gitignore_template = "python"
+        gitignore_template = "Python"
       },
     ]
     members = [
