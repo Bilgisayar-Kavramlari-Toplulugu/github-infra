@@ -766,6 +766,35 @@ projects = {
       }
     ]
   }
+  "isbirlikleri" = {
+    project_display_name = "Reklam ve Isbirlikleri Ekibi"
+    project_lead         = "alierenaytar"
+    team_name            = "isbirlikleri"
+    team_permission      = "push"
+    repositories = [
+      {
+        name               = "isbirlikleri"
+        description        = "Reklam ve Isbirlikleri Ekibi"
+        visibility         = "private"
+        license            = "mit"
+        gitignore_template = "Python"
+      },
+    ]
+    members = [
+      {
+        username = "gozdeinan"
+        role     = "maintainer"
+      },
+      {
+        username = "yunus54yunus"
+        role     = "maintainer"
+      },
+
+    ]
+  }
+
+
+
 }
 
 #=============================================================================
