@@ -789,7 +789,26 @@ projects = {
         username = "yunus54yunus"
         role     = "maintainer"
       },
-
+      {
+        username = "tubaozyurt2024"
+        role     = "member"
+      },
+      {
+        username = "rabiabaykra41"
+        role     = "member"
+      },
+      {
+        username = "semanurmetin20"
+        role     = "member"
+      },
+      {
+        username = "emrakts"
+        role     = "member"
+      },
+      {
+        username = "emresulutas"
+        role     = "member"
+      },
     ]
   }
 
