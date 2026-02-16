@@ -485,19 +485,19 @@ projects = {
     members = [
       {
         username = "halil-ibrahim-demir"
-        role     = "member"
+        role     = "maintainer"
       },
       {
         username = "adenercan"
-        role     = "member"
+        role     = "maintainer"
       },
       {
         username = "alierenaytar"
-        role     = "member"
+        role     = "maintainer"
       },
       {
         username = "gozdeinan"
-        role     = "member"
+        role     = "maintainer"
       },
       {
         username = "gecicidegisken"
@@ -541,7 +541,7 @@ projects = {
       },
       {
         username = "yunus54yunus"
-        role     = "member"
+        role     = "maintainer"
       },
 
 
