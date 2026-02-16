@@ -809,6 +809,10 @@ projects = {
         username = "emresulutas"
         role     = "member"
       },
+      {
+        username = "svenes25"
+        role     = "member"
+      },
     ]
   }
 
