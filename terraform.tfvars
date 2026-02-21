@@ -763,9 +763,38 @@ projects = {
       {
         username = "shamsiaa"
         role     = "member"
+      },
+      {
+        username = "ErtanSidar"
+        role     = "member"
+      },
+      {
+        username = "demirgulsen"
+        role     = "member"
+      },
+      {
+        username = "belmuh"
+        role     = "member"
+      },
+      {
+        username = "ferhatabik"
+        role     = "member"
+      },
+      {
+        username = "muhammedcagrikurt"
+        role     = "member"
+      },
+      {
+        username = "replakcan"
+        role     = "member"
+      },
+      {
+        username = "ismailaricioglu"
+        role     = "member"
       }
     ]
   }
+
   "isbirlikleri" = {
     project_display_name = "Reklam ve Isbirlikleri Ekibi"
     project_lead         = "alierenaytar"
