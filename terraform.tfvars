@@ -160,7 +160,7 @@ projects = {
 
   "OpenTeamManager" = {
     project_display_name = "Ekip yönetimini basitleştir, verimliliği artır!"
-    project_lead         = "hakanceran64"
+    project_lead         = "demirgulsen"
     team_name            = "OpenTeamManager"
     team_permission      = "push"
     repositories = [
@@ -230,7 +230,7 @@ projects = {
       },
       {
         username = "berkcangumusisik"
-        role     = "member"
+        role     = "maintainer"
       },
       {
         username = "maliuyanik"
