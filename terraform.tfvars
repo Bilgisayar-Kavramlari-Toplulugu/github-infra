@@ -860,10 +860,67 @@ projects = {
       },
     ]
   }
-
-
-
-
+  "EWS_UN" = {
+    project_display_name = "Early Warning System Project"
+    project_lead         = "elifsoyleyici"
+    team_name            = "ews-team"
+    team_permission      = "push"
+    repositories = [
+      {
+        name               = "project-ews"
+        description        = "Open-source platform for multi-source disaster data integration, risk analysis, and location-based early warning alerts."
+        visibility         = "public"
+        license            = "mit"
+        gitignore_template = "Python"
+      },
+    ]
+    members = [
+      {
+        username = "slymanmrcan"
+        role     = "maintainer"
+      },
+      {
+        username = "anenthusiastic"
+        role     = "maintainer"
+      },
+      {
+        username = "flovearth"
+        role     = "member"
+      },
+      {
+        username = "hakanceran64"
+        role     = "member"
+      },
+      {
+        username = "hulyaoner"
+        role     = "member"
+      },
+      {
+        username = "GamzeNurAslan"
+        role     = "member"
+      },
+      {
+        username = "fokusistatistik"
+        role     = "member"
+      },
+      {
+        username = "MerveAltnsk"
+        role     = "member"
+      },
+      {
+        username = "karalarmehmet"
+        role     = "member"
+      },
+      {
+        username = "Deadstronaut"
+        role     = "maintainer"
+      },
+      {
+        username = "tlpkurt"
+        role     = "member"
+      }
+    ]
+  }
 }
 
 
