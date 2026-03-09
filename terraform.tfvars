@@ -877,11 +877,11 @@ projects = {
     members = [
       {
         username = "slymanmrcan"
-        role     = "member"
+        role     = "maintainer"
       },
       {
         username = "anenthusiastic"
-        role     = "member"
+        role     = "maintainer"
       },
       {
         username = "flovearth"
@@ -893,10 +893,6 @@ projects = {
       },
       {
         username = "hulyaoner"
-        role     = "member"
-      },
-      {
-        username = "elifsoyleyici"
         role     = "member"
       },
       {
