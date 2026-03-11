@@ -94,51 +94,15 @@ projects = {
     ]
     members = [
       {
-        username = "slymanmrcan"
+        username = "demirgulsen"
+        role     = "maintainer"
+      },
+      {
+        username = "rfurkan37"
         role     = "member"
       },
       {
-        username = "the-forward"
-        role     = "member"
-      },
-      {
-        username = "silanaba"
-        role     = "member"
-      },
-      {
-        username = "Enisuzunn"
-        role     = "member"
-      },
-      {
-        username = "Feyat"
-        role     = "member"
-      },
-      {
-        username = "elifsoyleyici"
-        role     = "member"
-      },
-      {
-        username = "ysfcc"
-        role     = "member"
-      },
-      {
-        username = "umutssl"
-        role     = "member"
-      },
-      {
-        username = "dogu-omer"
-        role     = "member"
-      },
-      {
-        username = "HumeyraErtas"
-        role     = "member"
-      },
-      {
-        username = "Cezik01"
-        role     = "member"
-      },
-      {
-        username = "aycabasaran1"
+        username = "fatmatosunytu"
         role     = "member"
       },
       {
@@ -146,13 +110,10 @@ projects = {
         role     = "maintainer"
       },
       {
-        username = "maliuyanik"
+        username = "hakanceran64"
         role     = "member"
       },
-      {
-        username = "nurrsena"
-        role     = "member"
-      },
+
     ]
   }
 
