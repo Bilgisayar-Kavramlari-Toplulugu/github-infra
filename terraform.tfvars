@@ -113,6 +113,10 @@ projects = {
         username = "hakanceran64"
         role     = "member"
       },
+      {
+        username = "elieveee"
+        role     = "member"
+      },
 
     ]
   }
