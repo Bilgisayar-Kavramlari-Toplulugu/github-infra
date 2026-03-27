@@ -537,7 +537,7 @@ projects = {
         role     = "maintainer"
       },
 
-      }
+      
     ]
   }
 }
