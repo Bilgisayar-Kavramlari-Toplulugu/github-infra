@@ -202,7 +202,7 @@ projects = {
 
   "platform" = {
     project_display_name = "BKT Platform"
-    project_lead         = "flovearth" # Your username
+    project_lead         = "flovearth"
     team_name            = "platform"
     team_permission      = "push"
     repositories = [
@@ -216,9 +216,53 @@ projects = {
     ]
     members = [
       {
-        username = "flovearth" # Your username
+        username = "flovearth"
         role     = "maintainer"
-      }
+      },
+      {
+        username = "lerkush"
+        role     = "maintainer"
+      },
+      {
+        username = "slymanmrcan"
+        role     = "member"
+      },
+      {
+        username = "ismailaricioglu"
+        role     = "member"
+      },
+      {
+        username = "karalarmehmet"
+        role     = "maintainer"
+      },
+      {
+        username = "shamsiaa"
+        role     = "member"
+      },
+      {
+        username = "belmuh"
+        role     = "member"
+      },
+      {
+        username = "Elieveee"
+        role     = "member"
+      },
+      {
+        username = "maliuyanik"
+        role     = "member"
+      },
+      {
+        username = "EminAksoy3427"
+        role     = "member"
+      },
+      {
+        username = "eyupsosa34"
+        role     = "member"
+      },
+      {
+        username = "cihangiryaman"
+        role     = "member"
+      },
     ]
   }
 
@@ -458,7 +502,7 @@ projects = {
       },
       {
         username = "flovearth"
-        role     = "member"
+        role     = "maintainer"
       },
       {
         username = "hakanceran64"
@@ -489,8 +533,10 @@ projects = {
         role     = "maintainer"
       },
       {
-        username = "tlpkurt"
-        role     = "member"
+        username = "BilgisayarKavramlari"
+        role     = "maintainer"
+      },
+
       }
     ]
   }
