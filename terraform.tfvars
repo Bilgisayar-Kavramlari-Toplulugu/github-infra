@@ -57,17 +57,36 @@ projects = {
     members = [
       {
         username = "slymanmrcan"
-        role     = "member"
+        role     = "maintainer"
       },
       {
         username = "Deadstronaut"
         role     = "maintainer"
       },
       {
-        username = "flovearth"
+        username = "belmuh"
         role     = "member"
       },
-
+      {
+        username = "yusufsoyludev"
+        role     = "member"
+      },
+      {
+        username = "anenthusiastic"
+        role     = "member"
+      },
+      {
+        username = "DincerY"
+        role     = "member"
+      },
+      {
+        username = "purfatih"
+        role     = "member"
+      },
+      {
+        username = "MerveAltnsk"
+        role     = "member"
+      }
     ]
   }
 
