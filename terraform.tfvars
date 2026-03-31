@@ -555,6 +555,10 @@ projects = {
         username = "BilgisayarKavramlari"
         role     = "maintainer"
       },
+      {
+        username = "selinakkas"
+        role     = "member"
+      },
 
 
     ]
