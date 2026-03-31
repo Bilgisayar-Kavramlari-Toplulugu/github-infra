@@ -275,13 +275,13 @@ projects = {
         role     = "member"
       },
       {
-        username = "eyupsosa34"
-        role     = "member"
-      },
-      {
         username = "cihangiryaman"
         role     = "member"
       },
+      {
+        username = "eyupsosa34"
+        role     = "member"
+      }
     ]
   }
 
