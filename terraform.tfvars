@@ -150,7 +150,7 @@ projects = {
         name        = "management"
         description = "Yönetim Paneli Projesi Reposu"
         visibility  = "private"
-        has_wiki    = true
+        has_wiki    = false
       },
     ]
     members = [
@@ -220,6 +220,10 @@ projects = {
       },
       {
         username = "RabiaNurAcarturk"
+        role     = "member"
+      },
+      {
+        username = "flovearth"
         role     = "member"
       },
 
