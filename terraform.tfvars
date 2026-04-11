@@ -214,6 +214,14 @@ projects = {
         username = "yunus54yunus"
         role     = "maintainer"
       },
+      {
+        username = "aycabasaran1"
+        role     = "member"
+      },
+      {
+        username = "RabiaNurAcarturk"
+        role     = "member"
+      },
 
 
     ]
@@ -511,6 +519,10 @@ projects = {
       },
     ]
     members = [
+      {
+        username = "elifsoyleyici"
+        role     = "maintainer"
+      },
       {
         username = "slymanmrcan"
         role     = "maintainer"
