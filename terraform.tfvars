@@ -40,15 +40,15 @@ github_organization = "Bilgisayar-Kavramlari-Toplulugu"
 # Projects Configuration
 projects = {
 
-  "n8n-automation-with-actions" = {
-    project_display_name = "n8n-automation-with-actions"
+  "n8n-automation" = {
+    project_display_name = "n8n-automation"
     project_lead         = "slymanmrcan"
     team_name            = "project-n8n-automation"
     team_permission      = "push"
     repositories = [
       {
         name               = "project-n8n-automation"
-        description        = "n8n-automation-with-actions Project Repo"
+        description        = "n8n-automation Project Repo"
         visibility         = "public"
         license            = "mit"
         gitignore_template = "Terraform"
@@ -58,7 +58,7 @@ projects = {
       {
         username = "slymanmrcan"
         role     = "maintainer"
-      },
+      }
     ]
   }
 
