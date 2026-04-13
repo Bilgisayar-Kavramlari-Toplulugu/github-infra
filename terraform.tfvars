@@ -43,7 +43,7 @@ projects = {
   "n8n-automation-with-actions" = {
     project_display_name = "n8n-automation-with-actions"
     project_lead         = "slymanmrcan"
-    team_name            = "n8n-automation-with-actions"
+    team_name            = "project-n8n-automation"
     team_permission      = "push"
     repositories = [
       {
