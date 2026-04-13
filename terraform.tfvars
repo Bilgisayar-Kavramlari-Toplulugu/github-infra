@@ -47,7 +47,7 @@ projects = {
     team_permission      = "push"
     repositories = [
       {
-        name               = "project-n8n-automation-with-actions"
+        name               = "project-n8n-automation"
         description        = "n8n-automation-with-actions Project Repo"
         visibility         = "public"
         license            = "mit"
