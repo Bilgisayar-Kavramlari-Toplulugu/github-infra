@@ -205,14 +205,6 @@ projects = {
         role     = "member"
       },
       {
-        username = "SafakSahinn"
-        role     = "member"
-      },
-      {
-        username = "YaseminDenizOzturk"
-        role     = "member"
-      },
-      {
         username = "alperenkbd"
         role     = "member"
       },
@@ -234,10 +226,6 @@ projects = {
       },
       {
         username = "yunus54yunus"
-        role     = "maintainer"
-      },
-      {
-        username = "aycabasaran1"
         role     = "member"
       },
       {
