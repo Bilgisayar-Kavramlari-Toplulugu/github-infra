@@ -88,7 +88,8 @@ resource "github_repository" "repo" {
   lifecycle {
     ignore_changes = [
       description,
-      visibility
+      visibility,
+      has_wiki
     ]
   }
 }
@@ -127,6 +128,10 @@ resource "github_branch" "release" {
   source_branch = try(github_repository.repo[each.key].default_branch, "main")
 
   depends_on = [github_repository.repo]
+
+  lifecycle {
+    ignore_changes = all
+  }
 }
 
 resource "github_branch" "develop" {
@@ -137,6 +142,10 @@ resource "github_branch" "develop" {
   source_branch = try(github_repository.repo[each.key].default_branch, "main")
 
   depends_on = [github_repository.repo]
+
+  lifecycle {
+    ignore_changes = all
+  }
 }
 
 # Branch protection rules (only for public repositories)

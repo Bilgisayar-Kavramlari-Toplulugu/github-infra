@@ -2,7 +2,7 @@ name: Nightly Terraform Apply
 
 on:
   schedule:
-    - cron: '0 21 * * *'  # 9 PM UTC = midnight Turkey time (UTC+3 currently)
+    - cron: '0 21 * * 0'  # Every Sunday at 9 PM UTC = midnight Turkey time (UTC+3 currently)
   workflow_dispatch:       # Manual trigger
 
 permissions:
