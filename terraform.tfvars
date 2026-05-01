@@ -144,7 +144,7 @@ projects = {
       },
       {
         username = "hakanceran64"
-        role     = "member"
+        role     = "maintainer"
       },
 
     ]
@@ -396,6 +396,14 @@ projects = {
         username = "anenthusiastic"
         role     = "member"
       },
+      {
+        username = "maliuyanik"
+        role     = "member"
+      },
+      {
+        username = "ysfcc"
+        role     = "member"
+      },
 
     ]
   }
@@ -471,7 +479,7 @@ projects = {
     members = [
       {
         username = "flovearth"
-        role     = "member"
+        role     = "maintainer"
       },
     ]
   }
@@ -563,6 +571,14 @@ projects = {
       },
       {
         username = "selinakkas"
+        role     = "member"
+      },
+      {
+        username = "salsablrp"
+        role     = "member"
+      },
+      {
+        username = "alperdincer"
         role     = "member"
       },
 
