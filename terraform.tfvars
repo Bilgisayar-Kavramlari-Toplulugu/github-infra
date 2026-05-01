@@ -589,6 +589,28 @@ projects = {
 
     ]
   }
+
+  "VibeGame" = {
+    project_display_name = "Unity 6 3D arcade car driving game with WASD controls and out-of-bounds launch mechanic"
+    project_lead         = "mahmutsalman"
+    team_name            = "VibeGame"
+    team_permission      = "push"
+    repositories = [
+      {
+        name               = "project-vibegame"
+        description        = "Simple 3D car driving game built in Unity 6 — arcade controls, smooth follow camera, and a launch mechanic when driving off the map"
+        visibility         = "public"
+        license            = "mit"
+        gitignore_template = "Unity"
+      }
+    ]
+    members = [
+      {
+        username = "mahmutsalman"
+        role     = "maintainer"
+      }
+    ]
+  }
 }
 
 
