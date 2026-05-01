@@ -365,15 +365,7 @@ projects = {
         role     = "member"
       },
       {
-        username = "ErtanSidar"
-        role     = "member"
-      },
-      {
         username = "belmuh"
-        role     = "member"
-      },
-      {
-        username = "ferhatabik"
         role     = "member"
       },
       {
