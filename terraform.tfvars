@@ -114,7 +114,7 @@ projects = {
 
   "OpenTeamManager" = {
     project_display_name = "Ekip yönetimini basitleştir, verimliliği artır!"
-    project_lead         = "demirgulsen"
+    project_lead         = "hakanceran64"
     team_name            = "OpenTeamManager"
     team_permission      = "push"
     repositories = [
@@ -135,15 +135,7 @@ projects = {
     ]
     members = [
       {
-        username = "demirgulsen"
-        role     = "maintainer"
-      },
-      {
         username = "rfurkan37"
-        role     = "member"
-      },
-      {
-        username = "fatmatosunytu"
         role     = "member"
       },
       {
@@ -152,10 +144,6 @@ projects = {
       },
       {
         username = "hakanceran64"
-        role     = "member"
-      },
-      {
-        username = "elieveee"
         role     = "member"
       },
 
@@ -285,10 +273,6 @@ projects = {
         role     = "member"
       },
       {
-        username = "Elieveee"
-        role     = "member"
-      },
-      {
         username = "maliuyanik"
         role     = "member"
       },
@@ -382,10 +366,6 @@ projects = {
       },
       {
         username = "ErtanSidar"
-        role     = "member"
-      },
-      {
-        username = "demirgulsen"
         role     = "member"
       },
       {
