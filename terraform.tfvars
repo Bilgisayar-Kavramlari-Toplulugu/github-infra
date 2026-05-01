@@ -589,6 +589,28 @@ projects = {
 
     ]
   }
+
+  "Miaow" = {
+    project_display_name = "İstanbul'un sokak kedilerini harita üzerinde takip et ve besle!"
+    project_lead         = "mahmutsalman"
+    team_name            = "Miaow"
+    team_permission      = "push"
+    repositories = [
+      {
+        name               = "project-miaow"
+        description        = "Community-driven mobile app for tracking and feeding stray cats in Istanbul. Built with Expo + Supabase."
+        visibility         = "public"
+        license            = "mit"
+        gitignore_template = "Node"
+      }
+    ]
+    members = [
+      {
+        username = "mahmutsalman"
+        role     = "maintainer"
+      }
+    ]
+  }
 }
 
 
