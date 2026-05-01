@@ -30,16 +30,6 @@ locals {
     ]
   ])
 
-  # Flatten team memberships
-  all_memberships = flatten([
-    for project_name, project in var.projects : [
-      for member in project.members : {
-        project = project_name
-        user    = member.username
-        role    = member.role
-      }
-    ]
-  ])
 }
 
 # Create teams for each project
@@ -103,11 +93,17 @@ resource "github_team_repository" "access" {
 }
 
 # Add team members
-resource "github_team_membership" "members" {
-  for_each = { for m in local.all_memberships : "${m.project}-${m.user}" => m }
-  team_id  = github_team.project[each.value.project].id
-  username = each.value.user
-  role     = each.value.role
+resource "github_team_members" "members" {
+  for_each = var.projects
+  team_id  = github_team.project[each.key].id
+
+  dynamic "members" {
+    for_each = each.value.members
+    content {
+      username = members.value.username
+      role     = members.value.role
+    }
+  }
 }
 
 # Grant admin access to project leads

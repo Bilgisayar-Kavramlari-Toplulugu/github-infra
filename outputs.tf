@@ -38,7 +38,7 @@ output "project_summary" {
   value = {
     total_projects     = length(var.projects)
     total_repositories = length(local.all_repos)
-    total_memberships  = length(local.all_memberships)
+    total_memberships  = sum([for p in var.projects : length(p.members)])
     projects = {
       for project_name, project in var.projects : project_name => {
         project_display_name = try(project.project_display_name, project_name)
