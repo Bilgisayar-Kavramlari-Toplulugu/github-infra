@@ -589,6 +589,28 @@ projects = {
 
     ]
   }
+
+  "FlappyBirdNEAT" = {
+    project_display_name = "Flappy Bird game with NEAT AI — birds learn to play using evolutionary algorithms"
+    project_lead         = "mahmutsalman"
+    team_name            = "FlappyBirdNEAT"
+    team_permission      = "push"
+    repositories = [
+      {
+        name               = "project-flappybird-neat"
+        description        = "Flappy Bird game with NEAT AI — birds learn to play using evolutionary algorithms"
+        visibility         = "public"
+        license            = "mit"
+        gitignore_template = "Python"
+      }
+    ]
+    members = [
+      {
+        username = "mahmutsalman"
+        role     = "maintainer"
+      }
+    ]
+  }
 }
 
 
