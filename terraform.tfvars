@@ -82,10 +82,6 @@ projects = {
         role     = "maintainer"
       },
       {
-        username = "Deadstronaut"
-        role     = "maintainer"
-      },
-      {
         username = "belmuh"
         role     = "member"
       },
